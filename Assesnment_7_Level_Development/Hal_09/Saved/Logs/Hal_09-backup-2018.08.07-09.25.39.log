@@ -1,0 +1,647 @@
+﻿[2018.07.31-04.58.28:402][  0]Log file open, 07/31/18 14:28:28
+[2018.07.31-04.58.28:402][  0]LogInit:Display: Running engine for game: Hal_09
+[2018.07.31-04.58.28:402][  0]LogPlatformFile: Not using cached read wrapper
+[2018.07.31-04.58.28:402][  0]LogInit:Display: RandInit(-1836977516) SRandInit(-1836977515).
+[2018.07.31-04.58.28:402][  0]LogTaskGraph: Started task graph with 4 named threads and 7 total threads.
+[2018.07.31-04.58.28:402][  0]LogStats: Stats thread started at 0.063344
+[2018.07.31-04.58.28:402][  0]LogInit: Version: 4.10.4-2872498+++depot+UE4-Releases+4.10
+[2018.07.31-04.58.28:402][  0]LogInit: API Version: 2758231
+[2018.07.31-04.58.28:402][  0]LogInit: Compiled (64-bit): Feb 18 2016 15:47:04
+[2018.07.31-04.58.28:402][  0]LogInit: Compiled with Visual C++: 19.00.23026.00
+[2018.07.31-04.58.28:402][  0]LogInit: Build Configuration: Development
+[2018.07.31-04.58.28:402][  0]LogInit: Branch Name: ++depot+UE4-Releases+4.10
+[2018.07.31-04.58.28:402][  0]LogInit: Command line: -EpicPortal 
+[2018.07.31-04.58.28:402][  0]LogInit: Base directory: C:/Program Files (x86)/Epic Games/4.10/Engine/Binaries/Win64/
+[2018.07.31-04.58.28:402][  0]LogInit: Rocket: 1
+[2018.07.31-04.58.28:405][  0]LogInit: Using libcurl 7.41.0
+[2018.07.31-04.58.28:405][  0]LogInit:  - built for x86_64-pc-win32
+[2018.07.31-04.58.28:405][  0]LogInit:  - supports SSL with WinSSL
+[2018.07.31-04.58.28:405][  0]LogInit:  - other features:
+[2018.07.31-04.58.28:405][  0]LogInit:      CURL_VERSION_SSL
+[2018.07.31-04.58.28:405][  0]LogInit:      CURL_VERSION_IPV6
+[2018.07.31-04.58.28:405][  0]LogInit:      CURL_VERSION_ASYNCHDNS
+[2018.07.31-04.58.28:405][  0]LogInit:      CURL_VERSION_LARGEFILE
+[2018.07.31-04.58.28:405][  0]LogInit:      CURL_VERSION_IDN
+[2018.07.31-04.58.28:405][  0]LogInit:  CurlRequestOptions (configurable via config and command line):
+[2018.07.31-04.58.28:405][  0]LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+[2018.07.31-04.58.28:405][  0]LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+[2018.07.31-04.58.28:405][  0]LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+[2018.07.31-04.58.28:405][  0]LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+[2018.07.31-04.58.28:410][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[2018.07.31-04.58.28:415][  0]LogInit: Object subsystem initialized
+[2018.07.31-04.58.28:418][  0]LogInit: Selected Device Profile: [Windows]
+[2018.07.31-04.58.28:418][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2018.07.31-04.58.28:427][  0]LogInit: Computer: C07-07
+[2018.07.31-04.58.28:427][  0]LogInit: User: abishaksharma
+[2018.07.31-04.58.28:427][  0]LogInit: CPU Page size=4096, Cores=4
+[2018.07.31-04.58.28:427][  0]LogInit: High frequency timer resolution =3.507558 MHz
+[2018.07.31-04.58.28:427][  0]LogMemory: Memory total: Physical=31.8GB (32GB approx)
+[2018.07.31-04.58.28:427][  0]LogMemory: Platform Memory Stats for Windows
+[2018.07.31-04.58.28:427][  0]LogMemory: Process Physical Memory: 57.23 MB used, 57.23 MB peak
+[2018.07.31-04.58.28:427][  0]LogMemory: Process Virtual Memory: 60.70 MB used, 60.70 MB peak
+[2018.07.31-04.58.28:427][  0]LogMemory: Physical Memory: 9466.96 MB used, 32520.78 MB total
+[2018.07.31-04.58.28:427][  0]LogMemory: Virtual Memory: 356.42 MB used, 8388608.00 MB total
+[2018.07.31-04.58.28:454][  0]LogTextLocalizationManager: No specific translations for ('en-US') exist, so ('en') translations will be used.
+[2018.07.31-04.58.28:827][  0]LogD3D11RHI: Found D3D11 adapter 0: NVIDIA Quadro K620 (Feature Level 11_0)
+[2018.07.31-04.58.28:827][  0]LogD3D11RHI: Adapter has 1974MB of dedicated video memory, 0MB of dedicated system memory, and 16004MB of shared system memory, 1 output[s]
+[2018.07.31-04.58.28:827][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
+[2018.07.31-04.58.28:832][  0]LogD3D11RHI: !Direct3DDevice
+[2018.07.31-04.58.28:833][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2018.07.31-04.58.28:840][  0]LogD3D11RHI: Async texture creation enabled
+[2018.07.31-04.58.28:853][  0]LogShaderCompilers: Guid format shader working directory is -31 characters bigger than the processId version (D:/Cert_III_Asish_Sharma-2018/Assenssments/Assesnment_7_Level_Development/Hal_09/Intermediate/Shaders/WorkingDirectory/6576/).
+[2018.07.31-04.58.28:853][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/ABISHA~1/AppData/Local/Temp/UnrealShaderWorkingDir/C16D38E74F85885D7632999AD0D9F463/'.
+[2018.07.31-04.58.28:853][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2018.07.31-04.58.29:448][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2018.07.31-04.58.29:451][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2018.07.31-04.58.29:454][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2018.07.31-04.58.29:457][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2018.07.31-04.58.29:460][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2018.07.31-04.58.29:462][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2018.07.31-04.58.29:464][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2018.07.31-04.58.29:466][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2018.07.31-04.58.29:468][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2018.07.31-04.58.29:471][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2018.07.31-04.58.29:474][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2018.07.31-04.58.29:479][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2018.07.31-04.58.29:479][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2018.07.31-04.58.29:480][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2018.07.31-04.58.29:494][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2018.07.31-04.58.29:497][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2018.07.31-04.58.29:500][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2018.07.31-04.58.29:504][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2018.07.31-04.58.29:504][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2018.07.31-04.58.29:553][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2018.07.31-04.58.29:607][  0]LogDerivedDataCache: Loaded boot cache 0.05s 41MB C:/Users/Abishak Sharma/AppData/Local/UnrealEngine/4.10/DerivedDataCache/Boot.ddc.
+[2018.07.31-04.58.29:607][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Abishak Sharma/AppData/Local/UnrealEngine/4.10/DerivedDataCache/Boot.ddc
+[2018.07.31-04.58.29:607][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file D:/Cert_III_Asish_Sharma-2018/Assenssments/Assesnment_7_Level_Development/Hal_09/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2018.07.31-04.58.29:607][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2018.07.31-04.58.29:607][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file D:/Cert_III_Asish_Sharma-2018/Assenssments/Assesnment_7_Level_Development/Hal_09/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2018.07.31-04.58.29:607][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2018.07.31-04.58.29:657][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2018.07.31-04.58.29:668][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Abishak Sharma/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2018.07.31-04.58.29:799][  0]LogInit: Selected Device Profile: [Windows]
+[2018.07.31-04.58.29:799][  0]LogContentStreaming: Texture pool size is 0.000000MB
+[2018.07.31-04.58.29:826][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2018.07.31-04.58.29:826][  0]LogMeshUtilities: No automatic mesh merging module available
+[2018.07.31-04.58.30:115][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2018.07.31-04.58.30:718][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2018.07.31-04.58.30:798][  0]LogAssetRegistry: FAssetRegistry took 0.0102 seconds to start up
+[2018.07.31-04.58.30:906][  0]SourceControl: Info Source control is disabled
+[2018.07.31-04.58.30:937][  0]SourceControl: Info Source control is disabled
+[2018.07.31-04.58.30:943][  0]SourceControl: Info Source control is disabled
+[2018.07.31-04.58.30:948][  0]SourceControl: Info Source control is disabled
+[2018.07.31-04.58.31:071][  0]LogObj: 28633 objects as part of root set at end of initial load.
+[2018.07.31-04.58.31:071][  0]LogUObjectAllocator: 6099752 out of 0 bytes used by permanent object pool.
+[2018.07.31-04.58.31:115][  0]LogEngine: Initializing Engine...
+[2018.07.31-04.58.31:117][  0]LogHMD: Can't find Oculus library dev build: is proper Runtime installed? Version: 0.8.0.0
+[2018.07.31-04.58.31:118][  0]LogHMD: SteamVR failed to initialize.  Err: 110
+[2018.07.31-04.58.31:218][  0]LogAIModule: Creating AISystem for world NewWorld
+[2018.07.31-04.58.31:222][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.07.31-04.58.31:241][  0]LogInit: FAudioDevice initialized.
+[2018.07.31-04.58.31:262][  0]LogDerivedDataCache: Saved boot cache 0.02s 41MB C:/Users/Abishak Sharma/AppData/Local/UnrealEngine/4.10/DerivedDataCache/Boot.ddc.
+[2018.07.31-04.58.31:267][  0]LogInit: Texture streaming: Enabled
+[2018.07.31-04.58.31:270][  0]LogAnalytics: Creating configured Analytics provider AnalyticsET
+[2018.07.31-04.58.31:270][  0]LogAnalytics: [UEEditor.Rocket.Release] APIServer = http://et2.epicgames.com/ET2/. AppVersion = 4.10.4-2872498+++depot+UE4-Releases+4.10
+[2018.07.31-04.58.31:270][  0]LogAnalytics: [UEEditor.Rocket.Release] SetUserId 26fd195b4627ccb71f58e28f01324ef2|8c45e4f53e0443778329d53749c66361|92b610cd-75bf-42c6-a63b-4c0af98de919
+[2018.07.31-04.58.31:270][  0]LogAnalytics: [UEEditor.Rocket.Release] AnalyticsET::StartSession
+[2018.07.31-04.58.31:279][  0]LogInit: Transaction tracking system initialized
+[2018.07.31-04.58.31:294][  0]BlueprintLog: New page: Editor Load
+[2018.07.31-04.58.31:529][  0]LocalizationService: Info Localization service is disabled
+[2018.07.31-04.58.31:626][  0]LogConsoleResponse:Display: 
+[2018.07.31-04.58.31:716][  0]LogCook:Display: Done creating registry. It took  0.00s.
+[2018.07.31-04.58.31:755][  0]LogFileCache: Scanning file cache for directory 'D:/Cert_III_Asish_Sharma-2018/Assenssments/Assesnment_7_Level_Development/Hal_09/Content/' took 0.01s
+[2018.07.31-04.58.31:755][  0]SourceControl: Info Source control is disabled
+[2018.07.31-04.58.31:761][  0]LogFactory: FactoryCreateBinary: PackFactory with PackFactory (0 0 C:/Program Files (x86)/Epic Games/4.10/FeaturePacks/StarterContent.upack)
+[2018.07.31-04.58.31:770][  0]LogPackFactory: Finished extracting 8 files (including 0 errors).
+[2018.07.31-04.58.31:778][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Floor_400x400.uasset" to "D:/Cert_III_Asish_Sharma-2018/Assenssments/Assesnment_7_Level_Development/Hal_09/Content/StarterContent/Architecture/Floor_400x400.uasset"
+[2018.07.31-04.58.31:785][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Pillar_50x500.uasset" to "D:/Cert_III_Asish_Sharma-2018/Assenssments/Assesnment_7_Level_Development/Hal_09/Content/StarterContent/Architecture/Pillar_50x500.uasset"
+[2018.07.31-04.58.31:796][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/SM_AssetPlatform.uasset" to "D:/Cert_III_Asish_Sharma-2018/Assenssments/Assesnment_7_Level_Development/Hal_09/Content/StarterContent/Architecture/SM_AssetPlatform.uasset"
+[2018.07.31-04.58.31:807][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_400x200.uasset" to "D:/Cert_III_Asish_Sharma-2018/Assenssments/Assesnment_7_Level_Development/Hal_09/Content/StarterContent/Architecture/Wall_400x200.uasset"
+[2018.07.31-04.58.31:816][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_400x300.uasset" to "D:/Cert_III_Asish_Sharma-2018/Assenssments/Assesnment_7_Level_Development/Hal_09/Content/StarterContent/Architecture/Wall_400x300.uasset"
+[2018.07.31-04.58.31:825][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_400x400.uasset" to "D:/Cert_III_Asish_Sharma-2018/Assenssments/Assesnment_7_Level_Development/Hal_09/Content/StarterContent/Architecture/Wall_400x400.uasset"
+[2018.07.31-04.58.31:837][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_500x500.uasset" to "D:/Cert_III_Asish_Sharma-2018/Assenssments/Assesnment_7_Level_Development/Hal_09/Content/StarterContent/Architecture/Wall_500x500.uasset"
+[2018.07.31-04.58.31:848][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_Door_400x300.uasset" to "D:/Cert_III_Asish_Sharma-2018/Assenssments/Assesnment_7_Level_Development/Hal_09/Content/StarterContent/Architecture/Wall_Door_400x300.uasset"
+[2018.07.31-04.58.31:857][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_Door_400x400.uasset" to "D:/Cert_III_Asish_Sharma-2018/Assenssments/Assesnment_7_Level_Development/Hal_09/Content/StarterContent/Architecture/Wall_Door_400x400.uasset"
+[2018.07.31-04.58.31:866][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_Window_400x300.uasset" to "D:/Cert_III_Asish_Sharma-2018/Assenssments/Assesnment_7_Level_Development/Hal_09/Content/StarterContent/Architecture/Wall_Window_400x300.uasset"
+[2018.07.31-04.58.31:872][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_Window_400x400.uasset" to "D:/Cert_III_Asish_Sharma-2018/Assenssments/Assesnment_7_Level_Development/Hal_09/Content/StarterContent/Architecture/Wall_Window_400x400.uasset"
+[2018.07.31-04.58.31:881][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Collapse01.uasset" to "D:/Cert_III_Asish_Sharma-2018/Assenssments/Assesnment_7_Level_Development/Hal_09/Content/StarterContent/Audio/Collapse01.uasset"
+[2018.07.31-04.58.31:889][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Collapse02.uasset" to "D:/Cert_III_Asish_Sharma-2018/Assenssments/Assesnment_7_Level_Development/Hal_09/Content/StarterContent/Audio/Collapse02.uasset"
+[2018.07.31-04.58.31:892][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Collapse_Cue.uasset" to "D:/Cert_III_Asish_Sharma-2018/Assenssments/Assesnment_7_Level_Development/Hal_09/Content/StarterContent/Audio/Collapse_Cue.uasset"
+[2018.07.31-04.58.31:900][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Explosion01.uasset" to "D:/Cert_III_Asish_Sharma-2018/Assenssments/Assesnment_7_Level_Development/Hal_09/Content/StarterContent/Audio/Explosion01.uasset"
+[2018.07.31-04.58.31:907][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Explosion02.uasset" to "D:/Cert_III_Asish_Sharma-2018/Assenssments/Assesnment_7_Level_Development/Hal_09/Content/StarterContent/Audio/Explosion02.uasset"
+[2018.07.31-04.58.31:910][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Explosion_Cue.uasset" to "D:/Cert_III_Asish_Sharma-2018/Assenssments/Assesnment_7_Level_Development/Hal_09/Content/StarterContent/Audio/Explosion_Cue.uasset"
+[2018.07.31-04.58.31:919][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Fire01.uasset" to "D:/Cert_III_Asish_Sharma-2018/Assenssments/Assesnment_7_Level_Development/Hal_09/Content/StarterContent/Audio/Fire01.uasset"
+[2018.07.31-04.58.31:922][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Fire01_Cue.uasset" to "D:/Cert_III_Asish_Sharma-2018/Assenssments/Assesnment_7_Level_Development/Hal_09/Content/StarterContent/Audio/Fire01_Cue.uasset"
+[2018.07.31-04.58.31:935][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Fire_Sparks01.uasset" to "D:/Cert_III_Asish_Sharma-2018/Assenssments/Assesnment_7_Level_Development/Hal_09/Content/StarterContent/Audio/Fire_Sparks01.uasset"
+[2018.07.31-04.58.31:939][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Fire_Sparks01_Cue.uasset" to "D:/Cert_III_Asish_Sharma-2018/Assenssments/Assesnment_7_Level_Development/Hal_09/Content/StarterContent/Audio/Fire_Sparks01_Cue.uasset"
+[2018.07.31-04.58.31:948][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Light01.uasset" to "D:/Cert_III_Asish_Sharma-2018/Assenssments/Assesnment_7_Level_Development/Hal_09/Content/StarterContent/Audio/Light01.uasset"
+[2018.07.31-04.58.31:951][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Light01_Cue.uasset" to "D:/Cert_III_Asish_Sharma-2018/Assenssments/Assesnment_7_Level_Development/Hal_09/Content/StarterContent/Audio/Light01_Cue.uasset"
+[2018.07.31-04.58.31:960][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Light02.uasset" to "D:/Cert_III_Asish_Sharma-2018/Assenssments/Assesnment_7_Level_Development/Hal_09/Content/StarterContent/Audio/Light02.uasset"
+[2018.07.31-04.58.31:963][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Light02_Cue.uasset" to "D:/Cert_III_Asish_Sharma-2018/Assenssments/Assesnment_7_Level_Development/Hal_09/Content/StarterContent/Audio/Light02_Cue.uasset"
+[2018.07.31-04.58.31:974][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Smoke01.uasset" to "D:/Cert_III_Asish_Sharma-2018/Assenssments/Assesnment_7_Level_Development/Hal_09/Content/StarterContent/Audio/Smoke01.uasset"
+[2018.07.31-04.58.31:978][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Smoke01_Cue.uasset" to "D:/Cert_III_Asish_Sharma-2018/Assenssments/Assesnment_7_Level_Development/Hal_09/Content/StarterContent/Audio/Smoke01_Cue.uasset"
+[2018.07.31-04.58.31:984][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Starter_Background_Cue.uasset" to "D:/Cert_III_Asish_Sharma-2018/Assenssments/Assesnment_7_Level_Development/Hal_09/Content/StarterContent/Audio/Starter_Background_Cue.uasset"
+[2018.07.31-04.58.32:011][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Starter_Birds01.uasset" to "D:/Cert_III_Asish_Sharma-2018/Assenssments/Assesnment_7_Level_Development/Hal_09/Content/StarterContent/Audio/Starter_Birds01.uasset"
+[2018.07.31-04.58.32:080][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Starter_Music01.uasset" to "D:/Cert_III_Asish_Sharma-2018/Assenssments/Assesnment_7_Level_Development/Hal_09/Content/StarterContent/Audio/Starter_Music01.uasset"
+[2018.07.31-04.58.32:084][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Starter_Music_Cue.uasset" to "D:/Cert_III_Asish_Sharma-2018/Assenssments/Assesnment_7_Level_Development/Hal_09/Content/StarterContent/Audio/Starter_Music_Cue.uasset"
+[2018.07.31-04.58.32:109][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Starter_Wind05.uasset" to "D:/Cert_III_Asish_Sharma-2018/Assenssments/Assesnment_7_Level_Development/Hal_09/Content/StarterContent/Audio/Starter_Wind05.uasset"
+[2018.07.31-04.58.32:135][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Starter_Wind06.uasset" to "D:/Cert_III_Asish_Sharma-2018/Assenssments/Assesnment_7_Level_Development/Hal_09/Content/StarterContent/Audio/Starter_Wind06.uasset"
+[2018.07.31-04.58.32:149][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Steam01.uasset" to "D:/Cert_III_Asish_Sharma-2018/Assenssments/Assesnment_7_Level_Development/Hal_09/Content/StarterContent/Audio/Steam01.uasset"
+[2018.07.31-04.58.32:153][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Steam01_Cue.uasset" to "D:/Cert_III_Asish_Sharma-2018/Assenssments/Assesnment_7_Level_Development/Hal_09/Content/StarterContent/Audio/Steam01_Cue.uasset"
+[2018.07.31-04.58.32:163][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_CeilingLight.uasset" to "D:/Cert_III_Asish_Sharma-2018/Assenssments/Assesnment_7_Level_Development/Hal_09/Content/StarterContent/Blueprints/Blueprint_CeilingLight.uasset"
+[2018.07.31-04.58.32:170][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_Effect_Explosion.uasset" to "D:/Cert_III_Asish_Sharma-2018/Assenssments/Assesnment_7_Level_Development/Hal_09/Content/StarterContent/Blueprints/Blueprint_Effect_Explosion.uasset"
+[2018.07.31-04.58.32:179][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_Effect_Fire.uasset" to "D:/Cert_III_Asish_Sharma-2018/Assenssments/Assesnment_7_Level_Development/Hal_09/Content/StarterContent/Blueprints/Blueprint_Effect_Fire.uasset"
+[2018.07.31-04.58.32:186][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_Effect_Smoke.uasset" to "D:/Cert_III_Asish_Sharma-2018/Assenssments/Assesnment_7_Level_Development/Hal_09/Content/StarterContent/Blueprints/Blueprint_Effect_Smoke.uasset"
+[2018.07.31-04.58.32:195][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_Effect_Sparks.uasset" to "D:/Cert_III_Asish_Sharma-2018/Assenssments/Assesnment_7_Level_Development/Hal_09/Content/StarterContent/Blueprints/Blueprint_Effect_Sparks.uasset"
+[2018.07.31-04.58.32:203][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_Effect_Steam.uasset" to "D:/Cert_III_Asish_Sharma-2018/Assenssments/Assesnment_7_Level_Development/Hal_09/Content/StarterContent/Blueprints/Blueprint_Effect_Steam.uasset"
+[2018.07.31-04.58.32:211][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_WallSconce.uasset" to "D:/Cert_III_Asish_Sharma-2018/Assenssments/Assesnment_7_Level_Development/Hal_09/Content/StarterContent/Blueprints/Blueprint_WallSconce.uasset"
+[2018.07.31-04.58.32:221][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/BP_LightStudio.uasset" to "D:/Cert_III_Asish_Sharma-2018/Assenssments/Assesnment_7_Level_Development/Hal_09/Content/StarterContent/Blueprints/BP_LightStudio.uasset"
+[2018.07.31-04.58.32:225][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/FogBrightnessLUT.uasset" to "D:/Cert_III_Asish_Sharma-2018/Assenssments/Assesnment_7_Level_Development/Hal_09/Content/StarterContent/Blueprints/Assets/FogBrightnessLUT.uasset"
+[2018.07.31-04.58.32:231][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/M_LightStage_Arrows.uasset" to "D:/Cert_III_Asish_Sharma-2018/Assenssments/Assesnment_7_Level_Development/Hal_09/Content/StarterContent/Blueprints/Assets/M_LightStage_Arrows.uasset"
+[2018.07.31-04.58.32:239][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_Black.uasset" to "D:/Cert_III_Asish_Sharma-2018/Assenssments/Assesnment_7_Level_Development/Hal_09/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_Black.uasset"
+[2018.07.31-04.58.32:246][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_HDRI.uasset" to "D:/Cert_III_Asish_Sharma-2018/Assenssments/Assesnment_7_Level_Development/Hal_09/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_HDRI.uasset"
+[2018.07.31-04.58.32:253][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_Master.uasset" to "D:/Cert_III_Asish_Sharma-2018/Assenssments/Assesnment_7_Level_Development/Hal_09/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_Master.uasset"
+[2018.07.31-04.58.32:263][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/Skybox.uasset" to "D:/Cert_III_Asish_Sharma-2018/Assenssments/Assesnment_7_Level_Development/Hal_09/Content/StarterContent/Blueprints/Assets/Skybox.uasset"
+[2018.07.31-04.58.32:283][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/SM_Arrows.uasset" to "D:/Cert_III_Asish_Sharma-2018/Assenssments/Assesnment_7_Level_Development/Hal_09/Content/StarterContent/Blueprints/Assets/SM_Arrows.uasset"
+[2018.07.31-04.58.32:287][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/SunlightColorLUT.uasset" to "D:/Cert_III_Asish_Sharma-2018/Assenssments/Assesnment_7_Level_Development/Hal_09/Content/StarterContent/Blueprints/Assets/SunlightColorLUT.uasset"
+[2018.07.31-04.58.32:541][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/HDRI/HDRI_Epic_Courtyard_Daylight.uasset" to "D:/Cert_III_Asish_Sharma-2018/Assenssments/Assesnment_7_Level_Development/Hal_09/Content/StarterContent/HDRI/HDRI_Epic_Courtyard_Daylight.uasset"
+[2018.07.31-04.58.32:580][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Maps/Advanced_Lighting.umap" to "D:/Cert_III_Asish_Sharma-2018/Assenssments/Assesnment_7_Level_Development/Hal_09/Content/StarterContent/Maps/Advanced_Lighting.umap"
+[2018.07.31-04.58.32:616][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Maps/Minimal_Default.umap" to "D:/Cert_III_Asish_Sharma-2018/Assenssments/Assesnment_7_Level_Development/Hal_09/Content/StarterContent/Maps/Minimal_Default.umap"
+[2018.07.31-04.58.32:753][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Maps/StarterMap.umap" to "D:/Cert_III_Asish_Sharma-2018/Assenssments/Assesnment_7_Level_Development/Hal_09/Content/StarterContent/Maps/StarterMap.umap"
+[2018.07.31-04.58.32:762][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_AssetPlatform.uasset" to "D:/Cert_III_Asish_Sharma-2018/Assenssments/Assesnment_7_Level_Development/Hal_09/Content/StarterContent/Materials/M_AssetPlatform.uasset"
+[2018.07.31-04.58.32:769][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Basic_Floor.uasset" to "D:/Cert_III_Asish_Sharma-2018/Assenssments/Assesnment_7_Level_Development/Hal_09/Content/StarterContent/Materials/M_Basic_Floor.uasset"
+[2018.07.31-04.58.32:777][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Basic_Wall.uasset" to "D:/Cert_III_Asish_Sharma-2018/Assenssments/Assesnment_7_Level_Development/Hal_09/Content/StarterContent/Materials/M_Basic_Wall.uasset"
+[2018.07.31-04.58.32:784][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Brick_Clay_Beveled.uasset" to "D:/Cert_III_Asish_Sharma-2018/Assenssments/Assesnment_7_Level_Development/Hal_09/Content/StarterContent/Materials/M_Brick_Clay_Beveled.uasset"
+[2018.07.31-04.58.32:792][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Brick_Clay_New.uasset" to "D:/Cert_III_Asish_Sharma-2018/Assenssments/Assesnment_7_Level_Development/Hal_09/Content/StarterContent/Materials/M_Brick_Clay_New.uasset"
+[2018.07.31-04.58.32:799][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Brick_Clay_Old.uasset" to "D:/Cert_III_Asish_Sharma-2018/Assenssments/Assesnment_7_Level_Development/Hal_09/Content/StarterContent/Materials/M_Brick_Clay_Old.uasset"
+[2018.07.31-04.58.32:806][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Brick_Cut_Stone.uasset" to "D:/Cert_III_Asish_Sharma-2018/Assenssments/Assesnment_7_Level_Development/Hal_09/Content/StarterContent/Materials/M_Brick_Cut_Stone.uasset"
+[2018.07.31-04.58.32:812][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Brick_Hewn_Stone.uasset" to "D:/Cert_III_Asish_Sharma-2018/Assenssments/Assesnment_7_Level_Development/Hal_09/Content/StarterContent/Materials/M_Brick_Hewn_Stone.uasset"
+[2018.07.31-04.58.32:819][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Ceramic_Tile_Checker.uasset" to "D:/Cert_III_Asish_Sharma-2018/Assenssments/Assesnment_7_Level_Development/Hal_09/Content/StarterContent/Materials/M_Ceramic_Tile_Checker.uasset"
+[2018.07.31-04.58.32:827][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_CobbleStone_Pebble.uasset" to "D:/Cert_III_Asish_Sharma-2018/Assenssments/Assesnment_7_Level_Development/Hal_09/Content/StarterContent/Materials/M_CobbleStone_Pebble.uasset"
+[2018.07.31-04.58.32:834][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_CobbleStone_Rough.uasset" to "D:/Cert_III_Asish_Sharma-2018/Assenssments/Assesnment_7_Level_Development/Hal_09/Content/StarterContent/Materials/M_CobbleStone_Rough.uasset"
+[2018.07.31-04.58.32:842][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_CobbleStone_Smooth.uasset" to "D:/Cert_III_Asish_Sharma-2018/Assenssments/Assesnment_7_Level_Development/Hal_09/Content/StarterContent/Materials/M_CobbleStone_Smooth.uasset"
+[2018.07.31-04.58.32:849][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_ColorGrid_LowSpec.uasset" to "D:/Cert_III_Asish_Sharma-2018/Assenssments/Assesnment_7_Level_Development/Hal_09/Content/StarterContent/Materials/M_ColorGrid_LowSpec.uasset"
+[2018.07.31-04.58.32:857][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Concrete_Grime.uasset" to "D:/Cert_III_Asish_Sharma-2018/Assenssments/Assesnment_7_Level_Development/Hal_09/Content/StarterContent/Materials/M_Concrete_Grime.uasset"
+[2018.07.31-04.58.32:866][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Concrete_Panels.uasset" to "D:/Cert_III_Asish_Sharma-2018/Assenssments/Assesnment_7_Level_Development/Hal_09/Content/StarterContent/Materials/M_Concrete_Panels.uasset"
+[2018.07.31-04.58.32:874][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Concrete_Poured.uasset" to "D:/Cert_III_Asish_Sharma-2018/Assenssments/Assesnment_7_Level_Development/Hal_09/Content/StarterContent/Materials/M_Concrete_Poured.uasset"
+[2018.07.31-04.58.32:882][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Concrete_Tiles.uasset" to "D:/Cert_III_Asish_Sharma-2018/Assenssments/Assesnment_7_Level_Development/Hal_09/Content/StarterContent/Materials/M_Concrete_Tiles.uasset"
+[2018.07.31-04.58.32:890][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Glass.uasset" to "D:/Cert_III_Asish_Sharma-2018/Assenssments/Assesnment_7_Level_Development/Hal_09/Content/StarterContent/Materials/M_Glass.uasset"
+[2018.07.31-04.58.32:896][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Ground_Grass.uasset" to "D:/Cert_III_Asish_Sharma-2018/Assenssments/Assesnment_7_Level_Development/Hal_09/Content/StarterContent/Materials/M_Ground_Grass.uasset"
+[2018.07.31-04.58.32:902][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Ground_Gravel.uasset" to "D:/Cert_III_Asish_Sharma-2018/Assenssments/Assesnment_7_Level_Development/Hal_09/Content/StarterContent/Materials/M_Ground_Gravel.uasset"
+[2018.07.31-04.58.32:909][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Ground_Moss.uasset" to "D:/Cert_III_Asish_Sharma-2018/Assenssments/Assesnment_7_Level_Development/Hal_09/Content/StarterContent/Materials/M_Ground_Moss.uasset"
+[2018.07.31-04.58.32:915][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Brushed_Nickel.uasset" to "D:/Cert_III_Asish_Sharma-2018/Assenssments/Assesnment_7_Level_Development/Hal_09/Content/StarterContent/Materials/M_Metal_Brushed_Nickel.uasset"
+[2018.07.31-04.58.32:927][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Burnished_Steel.uasset" to "D:/Cert_III_Asish_Sharma-2018/Assenssments/Assesnment_7_Level_Development/Hal_09/Content/StarterContent/Materials/M_Metal_Burnished_Steel.uasset"
+[2018.07.31-04.58.32:933][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Chrome.uasset" to "D:/Cert_III_Asish_Sharma-2018/Assenssments/Assesnment_7_Level_Development/Hal_09/Content/StarterContent/Materials/M_Metal_Chrome.uasset"
+[2018.07.31-04.58.32:939][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Copper.uasset" to "D:/Cert_III_Asish_Sharma-2018/Assenssments/Assesnment_7_Level_Development/Hal_09/Content/StarterContent/Materials/M_Metal_Copper.uasset"
+[2018.07.31-04.58.32:951][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Gold.uasset" to "D:/Cert_III_Asish_Sharma-2018/Assenssments/Assesnment_7_Level_Development/Hal_09/Content/StarterContent/Materials/M_Metal_Gold.uasset"
+[2018.07.31-04.58.32:958][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Rust.uasset" to "D:/Cert_III_Asish_Sharma-2018/Assenssments/Assesnment_7_Level_Development/Hal_09/Content/StarterContent/Materials/M_Metal_Rust.uasset"
+[2018.07.31-04.58.32:964][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Steel.uasset" to "D:/Cert_III_Asish_Sharma-2018/Assenssments/Assesnment_7_Level_Development/Hal_09/Content/StarterContent/Materials/M_Metal_Steel.uasset"
+[2018.07.31-04.58.32:971][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Rock_Basalt.uasset" to "D:/Cert_III_Asish_Sharma-2018/Assenssments/Assesnment_7_Level_Development/Hal_09/Content/StarterContent/Materials/M_Rock_Basalt.uasset"
+[2018.07.31-04.58.32:978][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Rock_Marble_Polished.uasset" to "D:/Cert_III_Asish_Sharma-2018/Assenssments/Assesnment_7_Level_Development/Hal_09/Content/StarterContent/Materials/M_Rock_Marble_Polished.uasset"
+[2018.07.31-04.58.32:985][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Rock_Sandstone.uasset" to "D:/Cert_III_Asish_Sharma-2018/Assenssments/Assesnment_7_Level_Development/Hal_09/Content/StarterContent/Materials/M_Rock_Sandstone.uasset"
+[2018.07.31-04.58.32:992][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Rock_Slate.uasset" to "D:/Cert_III_Asish_Sharma-2018/Assenssments/Assesnment_7_Level_Development/Hal_09/Content/StarterContent/Materials/M_Rock_Slate.uasset"
+[2018.07.31-04.58.33:000][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Tech_Checker_Dot.uasset" to "D:/Cert_III_Asish_Sharma-2018/Assenssments/Assesnment_7_Level_Development/Hal_09/Content/StarterContent/Materials/M_Tech_Checker_Dot.uasset"
+[2018.07.31-04.58.33:010][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Tech_Hex_Tile.uasset" to "D:/Cert_III_Asish_Sharma-2018/Assenssments/Assesnment_7_Level_Development/Hal_09/Content/StarterContent/Materials/M_Tech_Hex_Tile.uasset"
+[2018.07.31-04.58.33:017][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Tech_Hex_Tile_Pulse.uasset" to "D:/Cert_III_Asish_Sharma-2018/Assenssments/Assesnment_7_Level_Development/Hal_09/Content/StarterContent/Materials/M_Tech_Hex_Tile_Pulse.uasset"
+[2018.07.31-04.58.33:024][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Tech_Panel.uasset" to "D:/Cert_III_Asish_Sharma-2018/Assenssments/Assesnment_7_Level_Development/Hal_09/Content/StarterContent/Materials/M_Tech_Panel.uasset"
+[2018.07.31-04.58.33:033][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Water_Lake.uasset" to "D:/Cert_III_Asish_Sharma-2018/Assenssments/Assesnment_7_Level_Development/Hal_09/Content/StarterContent/Materials/M_Water_Lake.uasset"
+[2018.07.31-04.58.33:041][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Water_Ocean.uasset" to "D:/Cert_III_Asish_Sharma-2018/Assenssments/Assesnment_7_Level_Development/Hal_09/Content/StarterContent/Materials/M_Water_Ocean.uasset"
+[2018.07.31-04.58.33:048][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Wood_Floor_Walnut_Polished.uasset" to "D:/Cert_III_Asish_Sharma-2018/Assenssments/Assesnment_7_Level_Development/Hal_09/Content/StarterContent/Materials/M_Wood_Floor_Walnut_Polished.uasset"
+[2018.07.31-04.58.33:057][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Wood_Floor_Walnut_Worn.uasset" to "D:/Cert_III_Asish_Sharma-2018/Assenssments/Assesnment_7_Level_Development/Hal_09/Content/StarterContent/Materials/M_Wood_Floor_Walnut_Worn.uasset"
+[2018.07.31-04.58.33:064][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Wood_Oak.uasset" to "D:/Cert_III_Asish_Sharma-2018/Assenssments/Assesnment_7_Level_Development/Hal_09/Content/StarterContent/Materials/M_Wood_Oak.uasset"
+[2018.07.31-04.58.33:071][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Wood_Pine.uasset" to "D:/Cert_III_Asish_Sharma-2018/Assenssments/Assesnment_7_Level_Development/Hal_09/Content/StarterContent/Materials/M_Wood_Pine.uasset"
+[2018.07.31-04.58.33:081][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Wood_Walnut.uasset" to "D:/Cert_III_Asish_Sharma-2018/Assenssments/Assesnment_7_Level_Development/Hal_09/Content/StarterContent/Materials/M_Wood_Walnut.uasset"
+[2018.07.31-04.58.33:089][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/P_Ambient_Dust.uasset" to "D:/Cert_III_Asish_Sharma-2018/Assenssments/Assesnment_7_Level_Development/Hal_09/Content/StarterContent/Particles/P_Ambient_Dust.uasset"
+[2018.07.31-04.58.33:100][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/P_Explosion.uasset" to "D:/Cert_III_Asish_Sharma-2018/Assenssments/Assesnment_7_Level_Development/Hal_09/Content/StarterContent/Particles/P_Explosion.uasset"
+[2018.07.31-04.58.33:109][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/P_Fire.uasset" to "D:/Cert_III_Asish_Sharma-2018/Assenssments/Assesnment_7_Level_Development/Hal_09/Content/StarterContent/Particles/P_Fire.uasset"
+[2018.07.31-04.58.33:116][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/P_Smoke.uasset" to "D:/Cert_III_Asish_Sharma-2018/Assenssments/Assesnment_7_Level_Development/Hal_09/Content/StarterContent/Particles/P_Smoke.uasset"
+[2018.07.31-04.58.33:125][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/P_Sparks.uasset" to "D:/Cert_III_Asish_Sharma-2018/Assenssments/Assesnment_7_Level_Development/Hal_09/Content/StarterContent/Particles/P_Sparks.uasset"
+[2018.07.31-04.58.33:133][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/P_Steam_Lit.uasset" to "D:/Cert_III_Asish_Sharma-2018/Assenssments/Assesnment_7_Level_Development/Hal_09/Content/StarterContent/Particles/P_Steam_Lit.uasset"
+[2018.07.31-04.58.33:139][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_Burst.uasset" to "D:/Cert_III_Asish_Sharma-2018/Assenssments/Assesnment_7_Level_Development/Hal_09/Content/StarterContent/Particles/Materials/M_Burst.uasset"
+[2018.07.31-04.58.33:146][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_Dust_Particle.uasset" to "D:/Cert_III_Asish_Sharma-2018/Assenssments/Assesnment_7_Level_Development/Hal_09/Content/StarterContent/Particles/Materials/M_Dust_Particle.uasset"
+[2018.07.31-04.58.33:154][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_explosion_subUV.uasset" to "D:/Cert_III_Asish_Sharma-2018/Assenssments/Assesnment_7_Level_Development/Hal_09/Content/StarterContent/Particles/Materials/M_explosion_subUV.uasset"
+[2018.07.31-04.58.33:161][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_Fire_SubUV.uasset" to "D:/Cert_III_Asish_Sharma-2018/Assenssments/Assesnment_7_Level_Development/Hal_09/Content/StarterContent/Particles/Materials/M_Fire_SubUV.uasset"
+[2018.07.31-04.58.33:168][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/m_flare_01.uasset" to "D:/Cert_III_Asish_Sharma-2018/Assenssments/Assesnment_7_Level_Development/Hal_09/Content/StarterContent/Particles/Materials/m_flare_01.uasset"
+[2018.07.31-04.58.33:174][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_Heat_Distortion.uasset" to "D:/Cert_III_Asish_Sharma-2018/Assenssments/Assesnment_7_Level_Development/Hal_09/Content/StarterContent/Particles/Materials/M_Heat_Distortion.uasset"
+[2018.07.31-04.58.33:181][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_Radial_Gradient.uasset" to "D:/Cert_III_Asish_Sharma-2018/Assenssments/Assesnment_7_Level_Development/Hal_09/Content/StarterContent/Particles/Materials/M_Radial_Gradient.uasset"
+[2018.07.31-04.58.33:188][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_radial_ramp.uasset" to "D:/Cert_III_Asish_Sharma-2018/Assenssments/Assesnment_7_Level_Development/Hal_09/Content/StarterContent/Particles/Materials/M_radial_ramp.uasset"
+[2018.07.31-04.58.33:194][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_smoke_subUV.uasset" to "D:/Cert_III_Asish_Sharma-2018/Assenssments/Assesnment_7_Level_Development/Hal_09/Content/StarterContent/Particles/Materials/M_smoke_subUV.uasset"
+[2018.07.31-04.58.33:201][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_Spark.uasset" to "D:/Cert_III_Asish_Sharma-2018/Assenssments/Assesnment_7_Level_Development/Hal_09/Content/StarterContent/Particles/Materials/M_Spark.uasset"
+[2018.07.31-04.58.33:209][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/MaterialSphere.uasset" to "D:/Cert_III_Asish_Sharma-2018/Assenssments/Assesnment_7_Level_Development/Hal_09/Content/StarterContent/Props/MaterialSphere.uasset"
+[2018.07.31-04.58.33:221][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Bush.uasset" to "D:/Cert_III_Asish_Sharma-2018/Assenssments/Assesnment_7_Level_Development/Hal_09/Content/StarterContent/Props/SM_Bush.uasset"
+[2018.07.31-04.58.33:229][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Chair.uasset" to "D:/Cert_III_Asish_Sharma-2018/Assenssments/Assesnment_7_Level_Development/Hal_09/Content/StarterContent/Props/SM_Chair.uasset"
+[2018.07.31-04.58.33:236][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_CornerFrame.uasset" to "D:/Cert_III_Asish_Sharma-2018/Assenssments/Assesnment_7_Level_Development/Hal_09/Content/StarterContent/Props/SM_CornerFrame.uasset"
+[2018.07.31-04.58.33:243][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Couch.uasset" to "D:/Cert_III_Asish_Sharma-2018/Assenssments/Assesnment_7_Level_Development/Hal_09/Content/StarterContent/Props/SM_Couch.uasset"
+[2018.07.31-04.58.33:251][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Door.uasset" to "D:/Cert_III_Asish_Sharma-2018/Assenssments/Assesnment_7_Level_Development/Hal_09/Content/StarterContent/Props/SM_Door.uasset"
+[2018.07.31-04.58.33:257][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_DoorFrame.uasset" to "D:/Cert_III_Asish_Sharma-2018/Assenssments/Assesnment_7_Level_Development/Hal_09/Content/StarterContent/Props/SM_DoorFrame.uasset"
+[2018.07.31-04.58.33:269][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_GlassWindow.uasset" to "D:/Cert_III_Asish_Sharma-2018/Assenssments/Assesnment_7_Level_Development/Hal_09/Content/StarterContent/Props/SM_GlassWindow.uasset"
+[2018.07.31-04.58.33:278][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Lamp_Ceiling.uasset" to "D:/Cert_III_Asish_Sharma-2018/Assenssments/Assesnment_7_Level_Development/Hal_09/Content/StarterContent/Props/SM_Lamp_Ceiling.uasset"
+[2018.07.31-04.58.33:287][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Lamp_Wall.uasset" to "D:/Cert_III_Asish_Sharma-2018/Assenssments/Assesnment_7_Level_Development/Hal_09/Content/StarterContent/Props/SM_Lamp_Wall.uasset"
+[2018.07.31-04.58.33:312][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_MatPreviewMesh_02.uasset" to "D:/Cert_III_Asish_Sharma-2018/Assenssments/Assesnment_7_Level_Development/Hal_09/Content/StarterContent/Props/SM_MatPreviewMesh_02.uasset"
+[2018.07.31-04.58.33:320][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_PillarFrame.uasset" to "D:/Cert_III_Asish_Sharma-2018/Assenssments/Assesnment_7_Level_Development/Hal_09/Content/StarterContent/Props/SM_PillarFrame.uasset"
+[2018.07.31-04.58.33:328][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_PillarFrame300.uasset" to "D:/Cert_III_Asish_Sharma-2018/Assenssments/Assesnment_7_Level_Development/Hal_09/Content/StarterContent/Props/SM_PillarFrame300.uasset"
+[2018.07.31-04.58.33:336][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Rock.uasset" to "D:/Cert_III_Asish_Sharma-2018/Assenssments/Assesnment_7_Level_Development/Hal_09/Content/StarterContent/Props/SM_Rock.uasset"
+[2018.07.31-04.58.33:343][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Shelf.uasset" to "D:/Cert_III_Asish_Sharma-2018/Assenssments/Assesnment_7_Level_Development/Hal_09/Content/StarterContent/Props/SM_Shelf.uasset"
+[2018.07.31-04.58.33:349][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Stairs.uasset" to "D:/Cert_III_Asish_Sharma-2018/Assenssments/Assesnment_7_Level_Development/Hal_09/Content/StarterContent/Props/SM_Stairs.uasset"
+[2018.07.31-04.58.33:358][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Statue.uasset" to "D:/Cert_III_Asish_Sharma-2018/Assenssments/Assesnment_7_Level_Development/Hal_09/Content/StarterContent/Props/SM_Statue.uasset"
+[2018.07.31-04.58.33:399][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_TableRound.uasset" to "D:/Cert_III_Asish_Sharma-2018/Assenssments/Assesnment_7_Level_Development/Hal_09/Content/StarterContent/Props/SM_TableRound.uasset"
+[2018.07.31-04.58.33:405][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_WindowFrame.uasset" to "D:/Cert_III_Asish_Sharma-2018/Assenssments/Assesnment_7_Level_Development/Hal_09/Content/StarterContent/Props/SM_WindowFrame.uasset"
+[2018.07.31-04.58.33:414][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Bush.uasset" to "D:/Cert_III_Asish_Sharma-2018/Assenssments/Assesnment_7_Level_Development/Hal_09/Content/StarterContent/Props/Materials/M_Bush.uasset"
+[2018.07.31-04.58.33:420][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Chair.uasset" to "D:/Cert_III_Asish_Sharma-2018/Assenssments/Assesnment_7_Level_Development/Hal_09/Content/StarterContent/Props/Materials/M_Chair.uasset"
+[2018.07.31-04.58.33:427][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Door.uasset" to "D:/Cert_III_Asish_Sharma-2018/Assenssments/Assesnment_7_Level_Development/Hal_09/Content/StarterContent/Props/Materials/M_Door.uasset"
+[2018.07.31-04.58.33:434][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Frame.uasset" to "D:/Cert_III_Asish_Sharma-2018/Assenssments/Assesnment_7_Level_Development/Hal_09/Content/StarterContent/Props/Materials/M_Frame.uasset"
+[2018.07.31-04.58.33:440][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Lamp.uasset" to "D:/Cert_III_Asish_Sharma-2018/Assenssments/Assesnment_7_Level_Development/Hal_09/Content/StarterContent/Props/Materials/M_Lamp.uasset"
+[2018.07.31-04.58.33:446][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_MaterialSphere.uasset" to "D:/Cert_III_Asish_Sharma-2018/Assenssments/Assesnment_7_Level_Development/Hal_09/Content/StarterContent/Props/Materials/M_MaterialSphere.uasset"
+[2018.07.31-04.58.33:453][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_MaterialSphere_Plain.uasset" to "D:/Cert_III_Asish_Sharma-2018/Assenssments/Assesnment_7_Level_Development/Hal_09/Content/StarterContent/Props/Materials/M_MaterialSphere_Plain.uasset"
+[2018.07.31-04.58.33:460][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Rock.uasset" to "D:/Cert_III_Asish_Sharma-2018/Assenssments/Assesnment_7_Level_Development/Hal_09/Content/StarterContent/Props/Materials/M_Rock.uasset"
+[2018.07.31-04.58.33:466][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Shelf.uasset" to "D:/Cert_III_Asish_Sharma-2018/Assenssments/Assesnment_7_Level_Development/Hal_09/Content/StarterContent/Props/Materials/M_Shelf.uasset"
+[2018.07.31-04.58.33:472][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Statue.uasset" to "D:/Cert_III_Asish_Sharma-2018/Assenssments/Assesnment_7_Level_Development/Hal_09/Content/StarterContent/Props/Materials/M_Statue.uasset"
+[2018.07.31-04.58.33:486][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_StatueGlass.uasset" to "D:/Cert_III_Asish_Sharma-2018/Assenssments/Assesnment_7_Level_Development/Hal_09/Content/StarterContent/Props/Materials/M_StatueGlass.uasset"
+[2018.07.31-04.58.33:492][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_TableRound.uasset" to "D:/Cert_III_Asish_Sharma-2018/Assenssments/Assesnment_7_Level_Development/Hal_09/Content/StarterContent/Props/Materials/M_TableRound.uasset"
+[2018.07.31-04.58.33:498][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Cone.uasset" to "D:/Cert_III_Asish_Sharma-2018/Assenssments/Assesnment_7_Level_Development/Hal_09/Content/StarterContent/Shapes/Shape_Cone.uasset"
+[2018.07.31-04.58.33:505][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Cube.uasset" to "D:/Cert_III_Asish_Sharma-2018/Assenssments/Assesnment_7_Level_Development/Hal_09/Content/StarterContent/Shapes/Shape_Cube.uasset"
+[2018.07.31-04.58.33:519][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Cylinder.uasset" to "D:/Cert_III_Asish_Sharma-2018/Assenssments/Assesnment_7_Level_Development/Hal_09/Content/StarterContent/Shapes/Shape_Cylinder.uasset"
+[2018.07.31-04.58.33:528][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_NarrowCapsule.uasset" to "D:/Cert_III_Asish_Sharma-2018/Assenssments/Assesnment_7_Level_Development/Hal_09/Content/StarterContent/Shapes/Shape_NarrowCapsule.uasset"
+[2018.07.31-04.58.33:537][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Pipe.uasset" to "D:/Cert_III_Asish_Sharma-2018/Assenssments/Assesnment_7_Level_Development/Hal_09/Content/StarterContent/Shapes/Shape_Pipe.uasset"
+[2018.07.31-04.58.33:545][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Pipe_180.uasset" to "D:/Cert_III_Asish_Sharma-2018/Assenssments/Assesnment_7_Level_Development/Hal_09/Content/StarterContent/Shapes/Shape_Pipe_180.uasset"
+[2018.07.31-04.58.33:554][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Pipe_90.uasset" to "D:/Cert_III_Asish_Sharma-2018/Assenssments/Assesnment_7_Level_Development/Hal_09/Content/StarterContent/Shapes/Shape_Pipe_90.uasset"
+[2018.07.31-04.58.33:562][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Plane.uasset" to "D:/Cert_III_Asish_Sharma-2018/Assenssments/Assesnment_7_Level_Development/Hal_09/Content/StarterContent/Shapes/Shape_Plane.uasset"
+[2018.07.31-04.58.33:569][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_QuadPyramid.uasset" to "D:/Cert_III_Asish_Sharma-2018/Assenssments/Assesnment_7_Level_Development/Hal_09/Content/StarterContent/Shapes/Shape_QuadPyramid.uasset"
+[2018.07.31-04.58.33:578][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Sphere.uasset" to "D:/Cert_III_Asish_Sharma-2018/Assenssments/Assesnment_7_Level_Development/Hal_09/Content/StarterContent/Shapes/Shape_Sphere.uasset"
+[2018.07.31-04.58.33:589][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Torus.uasset" to "D:/Cert_III_Asish_Sharma-2018/Assenssments/Assesnment_7_Level_Development/Hal_09/Content/StarterContent/Shapes/Shape_Torus.uasset"
+[2018.07.31-04.58.33:595][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Trim.uasset" to "D:/Cert_III_Asish_Sharma-2018/Assenssments/Assesnment_7_Level_Development/Hal_09/Content/StarterContent/Shapes/Shape_Trim.uasset"
+[2018.07.31-04.58.33:602][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Trim_90_In.uasset" to "D:/Cert_III_Asish_Sharma-2018/Assenssments/Assesnment_7_Level_Development/Hal_09/Content/StarterContent/Shapes/Shape_Trim_90_In.uasset"
+[2018.07.31-04.58.33:612][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Trim_90_Out.uasset" to "D:/Cert_III_Asish_Sharma-2018/Assenssments/Assesnment_7_Level_Development/Hal_09/Content/StarterContent/Shapes/Shape_Trim_90_Out.uasset"
+[2018.07.31-04.58.33:620][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_TriPyramid.uasset" to "D:/Cert_III_Asish_Sharma-2018/Assenssments/Assesnment_7_Level_Development/Hal_09/Content/StarterContent/Shapes/Shape_TriPyramid.uasset"
+[2018.07.31-04.58.33:628][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Tube.uasset" to "D:/Cert_III_Asish_Sharma-2018/Assenssments/Assesnment_7_Level_Development/Hal_09/Content/StarterContent/Shapes/Shape_Tube.uasset"
+[2018.07.31-04.58.33:635][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Wedge_A.uasset" to "D:/Cert_III_Asish_Sharma-2018/Assenssments/Assesnment_7_Level_Development/Hal_09/Content/StarterContent/Shapes/Shape_Wedge_A.uasset"
+[2018.07.31-04.58.33:641][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Wedge_B.uasset" to "D:/Cert_III_Asish_Sharma-2018/Assenssments/Assesnment_7_Level_Development/Hal_09/Content/StarterContent/Shapes/Shape_Wedge_B.uasset"
+[2018.07.31-04.58.33:649][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_WideCapsule.uasset" to "D:/Cert_III_Asish_Sharma-2018/Assenssments/Assesnment_7_Level_Development/Hal_09/Content/StarterContent/Shapes/Shape_WideCapsule.uasset"
+[2018.07.31-04.58.33:712][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_Beveled_D.uasset" to "D:/Cert_III_Asish_Sharma-2018/Assenssments/Assesnment_7_Level_Development/Hal_09/Content/StarterContent/Textures/T_Brick_Clay_Beveled_D.uasset"
+[2018.07.31-04.58.33:786][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_Beveled_M.uasset" to "D:/Cert_III_Asish_Sharma-2018/Assenssments/Assesnment_7_Level_Development/Hal_09/Content/StarterContent/Textures/T_Brick_Clay_Beveled_M.uasset"
+[2018.07.31-04.58.33:851][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_Beveled_N.uasset" to "D:/Cert_III_Asish_Sharma-2018/Assenssments/Assesnment_7_Level_Development/Hal_09/Content/StarterContent/Textures/T_Brick_Clay_Beveled_N.uasset"
+[2018.07.31-04.58.33:904][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_New_D.uasset" to "D:/Cert_III_Asish_Sharma-2018/Assenssments/Assesnment_7_Level_Development/Hal_09/Content/StarterContent/Textures/T_Brick_Clay_New_D.uasset"
+[2018.07.31-04.58.33:979][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_New_M.uasset" to "D:/Cert_III_Asish_Sharma-2018/Assenssments/Assesnment_7_Level_Development/Hal_09/Content/StarterContent/Textures/T_Brick_Clay_New_M.uasset"
+[2018.07.31-04.58.34:050][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_New_N.uasset" to "D:/Cert_III_Asish_Sharma-2018/Assenssments/Assesnment_7_Level_Development/Hal_09/Content/StarterContent/Textures/T_Brick_Clay_New_N.uasset"
+[2018.07.31-04.58.34:144][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_Old_D.uasset" to "D:/Cert_III_Asish_Sharma-2018/Assenssments/Assesnment_7_Level_Development/Hal_09/Content/StarterContent/Textures/T_Brick_Clay_Old_D.uasset"
+[2018.07.31-04.58.34:211][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_Old_N.uasset" to "D:/Cert_III_Asish_Sharma-2018/Assenssments/Assesnment_7_Level_Development/Hal_09/Content/StarterContent/Textures/T_Brick_Clay_Old_N.uasset"
+[2018.07.31-04.58.34:316][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Cut_Stone_D.uasset" to "D:/Cert_III_Asish_Sharma-2018/Assenssments/Assesnment_7_Level_Development/Hal_09/Content/StarterContent/Textures/T_Brick_Cut_Stone_D.uasset"
+[2018.07.31-04.58.34:372][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Cut_Stone_N.uasset" to "D:/Cert_III_Asish_Sharma-2018/Assenssments/Assesnment_7_Level_Development/Hal_09/Content/StarterContent/Textures/T_Brick_Cut_Stone_N.uasset"
+[2018.07.31-04.58.34:434][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Hewn_Stone_D.uasset" to "D:/Cert_III_Asish_Sharma-2018/Assenssments/Assesnment_7_Level_Development/Hal_09/Content/StarterContent/Textures/T_Brick_Hewn_Stone_D.uasset"
+[2018.07.31-04.58.34:497][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Hewn_Stone_M.uasset" to "D:/Cert_III_Asish_Sharma-2018/Assenssments/Assesnment_7_Level_Development/Hal_09/Content/StarterContent/Textures/T_Brick_Hewn_Stone_M.uasset"
+[2018.07.31-04.58.34:674][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Hewn_Stone_N.uasset" to "D:/Cert_III_Asish_Sharma-2018/Assenssments/Assesnment_7_Level_Development/Hal_09/Content/StarterContent/Textures/T_Brick_Hewn_Stone_N.uasset"
+[2018.07.31-04.58.34:685][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Burst_M.uasset" to "D:/Cert_III_Asish_Sharma-2018/Assenssments/Assesnment_7_Level_Development/Hal_09/Content/StarterContent/Textures/T_Burst_M.uasset"
+[2018.07.31-04.58.34:697][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Bush_D.uasset" to "D:/Cert_III_Asish_Sharma-2018/Assenssments/Assesnment_7_Level_Development/Hal_09/Content/StarterContent/Textures/T_Bush_D.uasset"
+[2018.07.31-04.58.34:708][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Bush_N.uasset" to "D:/Cert_III_Asish_Sharma-2018/Assenssments/Assesnment_7_Level_Development/Hal_09/Content/StarterContent/Textures/T_Bush_N.uasset"
+[2018.07.31-04.58.34:717][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ceramic_Tile_M.uasset" to "D:/Cert_III_Asish_Sharma-2018/Assenssments/Assesnment_7_Level_Development/Hal_09/Content/StarterContent/Textures/T_Ceramic_Tile_M.uasset"
+[2018.07.31-04.58.34:725][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ceramic_Tile_N.uasset" to "D:/Cert_III_Asish_Sharma-2018/Assenssments/Assesnment_7_Level_Development/Hal_09/Content/StarterContent/Textures/T_Ceramic_Tile_N.uasset"
+[2018.07.31-04.58.34:737][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Chair_M.uasset" to "D:/Cert_III_Asish_Sharma-2018/Assenssments/Assesnment_7_Level_Development/Hal_09/Content/StarterContent/Textures/T_Chair_M.uasset"
+[2018.07.31-04.58.34:770][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Chair_N.uasset" to "D:/Cert_III_Asish_Sharma-2018/Assenssments/Assesnment_7_Level_Development/Hal_09/Content/StarterContent/Textures/T_Chair_N.uasset"
+[2018.07.31-04.58.34:780][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Checker_Noise_M.uasset" to "D:/Cert_III_Asish_Sharma-2018/Assenssments/Assesnment_7_Level_Development/Hal_09/Content/StarterContent/Textures/T_Checker_Noise_M.uasset"
+[2018.07.31-04.58.34:882][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Pebble_D.uasset" to "D:/Cert_III_Asish_Sharma-2018/Assenssments/Assesnment_7_Level_Development/Hal_09/Content/StarterContent/Textures/T_CobbleStone_Pebble_D.uasset"
+[2018.07.31-04.58.34:900][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Pebble_M.uasset" to "D:/Cert_III_Asish_Sharma-2018/Assenssments/Assesnment_7_Level_Development/Hal_09/Content/StarterContent/Textures/T_CobbleStone_Pebble_M.uasset"
+[2018.07.31-04.58.34:998][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Pebble_N.uasset" to "D:/Cert_III_Asish_Sharma-2018/Assenssments/Assesnment_7_Level_Development/Hal_09/Content/StarterContent/Textures/T_CobbleStone_Pebble_N.uasset"
+[2018.07.31-04.58.35:027][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Rough_D.uasset" to "D:/Cert_III_Asish_Sharma-2018/Assenssments/Assesnment_7_Level_Development/Hal_09/Content/StarterContent/Textures/T_CobbleStone_Rough_D.uasset"
+[2018.07.31-04.58.35:055][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Rough_N.uasset" to "D:/Cert_III_Asish_Sharma-2018/Assenssments/Assesnment_7_Level_Development/Hal_09/Content/StarterContent/Textures/T_CobbleStone_Rough_N.uasset"
+[2018.07.31-04.58.35:152][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Smooth_D.uasset" to "D:/Cert_III_Asish_Sharma-2018/Assenssments/Assesnment_7_Level_Development/Hal_09/Content/StarterContent/Textures/T_CobbleStone_Smooth_D.uasset"
+[2018.07.31-04.58.35:202][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Smooth_M.uasset" to "D:/Cert_III_Asish_Sharma-2018/Assenssments/Assesnment_7_Level_Development/Hal_09/Content/StarterContent/Textures/T_CobbleStone_Smooth_M.uasset"
+[2018.07.31-04.58.35:270][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Smooth_N.uasset" to "D:/Cert_III_Asish_Sharma-2018/Assenssments/Assesnment_7_Level_Development/Hal_09/Content/StarterContent/Textures/T_CobbleStone_Smooth_N.uasset"
+[2018.07.31-04.58.35:355][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Grime_D.uasset" to "D:/Cert_III_Asish_Sharma-2018/Assenssments/Assesnment_7_Level_Development/Hal_09/Content/StarterContent/Textures/T_Concrete_Grime_D.uasset"
+[2018.07.31-04.58.35:421][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Panels_D.uasset" to "D:/Cert_III_Asish_Sharma-2018/Assenssments/Assesnment_7_Level_Development/Hal_09/Content/StarterContent/Textures/T_Concrete_Panels_D.uasset"
+[2018.07.31-04.58.35:477][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Panels_N.uasset" to "D:/Cert_III_Asish_Sharma-2018/Assenssments/Assesnment_7_Level_Development/Hal_09/Content/StarterContent/Textures/T_Concrete_Panels_N.uasset"
+[2018.07.31-04.58.35:569][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Poured_D.uasset" to "D:/Cert_III_Asish_Sharma-2018/Assenssments/Assesnment_7_Level_Development/Hal_09/Content/StarterContent/Textures/T_Concrete_Poured_D.uasset"
+[2018.07.31-04.58.35:626][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Poured_N.uasset" to "D:/Cert_III_Asish_Sharma-2018/Assenssments/Assesnment_7_Level_Development/Hal_09/Content/StarterContent/Textures/T_Concrete_Poured_N.uasset"
+[2018.07.31-04.58.35:668][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Tiles_D.uasset" to "D:/Cert_III_Asish_Sharma-2018/Assenssments/Assesnment_7_Level_Development/Hal_09/Content/StarterContent/Textures/T_Concrete_Tiles_D.uasset"
+[2018.07.31-04.58.35:716][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Tiles_M.uasset" to "D:/Cert_III_Asish_Sharma-2018/Assenssments/Assesnment_7_Level_Development/Hal_09/Content/StarterContent/Textures/T_Concrete_Tiles_M.uasset"
+[2018.07.31-04.58.35:771][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Tiles_N.uasset" to "D:/Cert_III_Asish_Sharma-2018/Assenssments/Assesnment_7_Level_Development/Hal_09/Content/StarterContent/Textures/T_Concrete_Tiles_N.uasset"
+[2018.07.31-04.58.35:776][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Tiles_Variation_M.uasset" to "D:/Cert_III_Asish_Sharma-2018/Assenssments/Assesnment_7_Level_Development/Hal_09/Content/StarterContent/Textures/T_Concrete_Tiles_Variation_M.uasset"
+[2018.07.31-04.58.35:804][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Detail_Rocky_N.uasset" to "D:/Cert_III_Asish_Sharma-2018/Assenssments/Assesnment_7_Level_Development/Hal_09/Content/StarterContent/Textures/T_Detail_Rocky_N.uasset"
+[2018.07.31-04.58.35:814][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Door_M.uasset" to "D:/Cert_III_Asish_Sharma-2018/Assenssments/Assesnment_7_Level_Development/Hal_09/Content/StarterContent/Textures/T_Door_M.uasset"
+[2018.07.31-04.58.35:828][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Door_N.uasset" to "D:/Cert_III_Asish_Sharma-2018/Assenssments/Assesnment_7_Level_Development/Hal_09/Content/StarterContent/Textures/T_Door_N.uasset"
+[2018.07.31-04.58.35:835][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Dust_Particle_D.uasset" to "D:/Cert_III_Asish_Sharma-2018/Assenssments/Assesnment_7_Level_Development/Hal_09/Content/StarterContent/Textures/T_Dust_Particle_D.uasset"
+[2018.07.31-04.58.35:862][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Explosion_SubUV.uasset" to "D:/Cert_III_Asish_Sharma-2018/Assenssments/Assesnment_7_Level_Development/Hal_09/Content/StarterContent/Textures/T_Explosion_SubUV.uasset"
+[2018.07.31-04.58.35:872][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Fire_SubUV.uasset" to "D:/Cert_III_Asish_Sharma-2018/Assenssments/Assesnment_7_Level_Development/Hal_09/Content/StarterContent/Textures/T_Fire_SubUV.uasset"
+[2018.07.31-04.58.35:883][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Fire_Tiled_D.uasset" to "D:/Cert_III_Asish_Sharma-2018/Assenssments/Assesnment_7_Level_Development/Hal_09/Content/StarterContent/Textures/T_Fire_Tiled_D.uasset"
+[2018.07.31-04.58.35:893][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Frame_M.uasset" to "D:/Cert_III_Asish_Sharma-2018/Assenssments/Assesnment_7_Level_Development/Hal_09/Content/StarterContent/Textures/T_Frame_M.uasset"
+[2018.07.31-04.58.35:908][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Frame_N.uasset" to "D:/Cert_III_Asish_Sharma-2018/Assenssments/Assesnment_7_Level_Development/Hal_09/Content/StarterContent/Textures/T_Frame_N.uasset"
+[2018.07.31-04.58.35:911][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Gradinet_01.uasset" to "D:/Cert_III_Asish_Sharma-2018/Assenssments/Assesnment_7_Level_Development/Hal_09/Content/StarterContent/Textures/T_Gradinet_01.uasset"
+[2018.07.31-04.58.36:004][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ground_Grass_D.uasset" to "D:/Cert_III_Asish_Sharma-2018/Assenssments/Assesnment_7_Level_Development/Hal_09/Content/StarterContent/Textures/T_Ground_Grass_D.uasset"
+[2018.07.31-04.58.36:096][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ground_Grass_N.uasset" to "D:/Cert_III_Asish_Sharma-2018/Assenssments/Assesnment_7_Level_Development/Hal_09/Content/StarterContent/Textures/T_Ground_Grass_N.uasset"
+[2018.07.31-04.58.36:179][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ground_Gravel_D.uasset" to "D:/Cert_III_Asish_Sharma-2018/Assenssments/Assesnment_7_Level_Development/Hal_09/Content/StarterContent/Textures/T_Ground_Gravel_D.uasset"
+[2018.07.31-04.58.36:240][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ground_Gravel_N.uasset" to "D:/Cert_III_Asish_Sharma-2018/Assenssments/Assesnment_7_Level_Development/Hal_09/Content/StarterContent/Textures/T_Ground_Gravel_N.uasset"
+[2018.07.31-04.58.36:351][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_ground_Moss_D.uasset" to "D:/Cert_III_Asish_Sharma-2018/Assenssments/Assesnment_7_Level_Development/Hal_09/Content/StarterContent/Textures/T_ground_Moss_D.uasset"
+[2018.07.31-04.58.36:419][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ground_Moss_N.uasset" to "D:/Cert_III_Asish_Sharma-2018/Assenssments/Assesnment_7_Level_Development/Hal_09/Content/StarterContent/Textures/T_Ground_Moss_N.uasset"
+[2018.07.31-04.58.36:435][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Lamp_M.uasset" to "D:/Cert_III_Asish_Sharma-2018/Assenssments/Assesnment_7_Level_Development/Hal_09/Content/StarterContent/Textures/T_Lamp_M.uasset"
+[2018.07.31-04.58.36:456][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Lamp_N.uasset" to "D:/Cert_III_Asish_Sharma-2018/Assenssments/Assesnment_7_Level_Development/Hal_09/Content/StarterContent/Textures/T_Lamp_N.uasset"
+[2018.07.31-04.58.36:643][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_MacroVariation.uasset" to "D:/Cert_III_Asish_Sharma-2018/Assenssments/Assesnment_7_Level_Development/Hal_09/Content/StarterContent/Textures/T_MacroVariation.uasset"
+[2018.07.31-04.58.36:734][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Aluminum_D.uasset" to "D:/Cert_III_Asish_Sharma-2018/Assenssments/Assesnment_7_Level_Development/Hal_09/Content/StarterContent/Textures/T_Metal_Aluminum_D.uasset"
+[2018.07.31-04.58.36:803][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Copper_D.uasset" to "D:/Cert_III_Asish_Sharma-2018/Assenssments/Assesnment_7_Level_Development/Hal_09/Content/StarterContent/Textures/T_Metal_Copper_D.uasset"
+[2018.07.31-04.58.36:872][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Gold_D.uasset" to "D:/Cert_III_Asish_Sharma-2018/Assenssments/Assesnment_7_Level_Development/Hal_09/Content/StarterContent/Textures/T_Metal_Gold_D.uasset"
+[2018.07.31-04.58.36:902][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Gold_N.uasset" to "D:/Cert_III_Asish_Sharma-2018/Assenssments/Assesnment_7_Level_Development/Hal_09/Content/StarterContent/Textures/T_Metal_Gold_N.uasset"
+[2018.07.31-04.58.36:976][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Rust_D.uasset" to "D:/Cert_III_Asish_Sharma-2018/Assenssments/Assesnment_7_Level_Development/Hal_09/Content/StarterContent/Textures/T_Metal_Rust_D.uasset"
+[2018.07.31-04.58.37:038][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Rust_N.uasset" to "D:/Cert_III_Asish_Sharma-2018/Assenssments/Assesnment_7_Level_Development/Hal_09/Content/StarterContent/Textures/T_Metal_Rust_N.uasset"
+[2018.07.31-04.58.37:073][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Steel_D.uasset" to "D:/Cert_III_Asish_Sharma-2018/Assenssments/Assesnment_7_Level_Development/Hal_09/Content/StarterContent/Textures/T_Metal_Steel_D.uasset"
+[2018.07.31-04.58.37:116][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Steel_N.uasset" to "D:/Cert_III_Asish_Sharma-2018/Assenssments/Assesnment_7_Level_Development/Hal_09/Content/StarterContent/Textures/T_Metal_Steel_N.uasset"
+[2018.07.31-04.58.37:181][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Perlin_Noise_M.uasset" to "D:/Cert_III_Asish_Sharma-2018/Assenssments/Assesnment_7_Level_Development/Hal_09/Content/StarterContent/Textures/T_Perlin_Noise_M.uasset"
+[2018.07.31-04.58.37:209][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_RockMesh_M.uasset" to "D:/Cert_III_Asish_Sharma-2018/Assenssments/Assesnment_7_Level_Development/Hal_09/Content/StarterContent/Textures/T_RockMesh_M.uasset"
+[2018.07.31-04.58.37:259][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_RockMesh_N.uasset" to "D:/Cert_III_Asish_Sharma-2018/Assenssments/Assesnment_7_Level_Development/Hal_09/Content/StarterContent/Textures/T_RockMesh_N.uasset"
+[2018.07.31-04.58.37:331][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Basalt_D.uasset" to "D:/Cert_III_Asish_Sharma-2018/Assenssments/Assesnment_7_Level_Development/Hal_09/Content/StarterContent/Textures/T_Rock_Basalt_D.uasset"
+[2018.07.31-04.58.37:394][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Basalt_N.uasset" to "D:/Cert_III_Asish_Sharma-2018/Assenssments/Assesnment_7_Level_Development/Hal_09/Content/StarterContent/Textures/T_Rock_Basalt_N.uasset"
+[2018.07.31-04.58.37:442][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Marble_Polished_D.uasset" to "D:/Cert_III_Asish_Sharma-2018/Assenssments/Assesnment_7_Level_Development/Hal_09/Content/StarterContent/Textures/T_Rock_Marble_Polished_D.uasset"
+[2018.07.31-04.58.37:513][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Sandstone_D.uasset" to "D:/Cert_III_Asish_Sharma-2018/Assenssments/Assesnment_7_Level_Development/Hal_09/Content/StarterContent/Textures/T_Rock_Sandstone_D.uasset"
+[2018.07.31-04.58.37:582][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Sandstone_N.uasset" to "D:/Cert_III_Asish_Sharma-2018/Assenssments/Assesnment_7_Level_Development/Hal_09/Content/StarterContent/Textures/T_Rock_Sandstone_N.uasset"
+[2018.07.31-04.58.37:675][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Slate_D.uasset" to "D:/Cert_III_Asish_Sharma-2018/Assenssments/Assesnment_7_Level_Development/Hal_09/Content/StarterContent/Textures/T_Rock_Slate_D.uasset"
+[2018.07.31-04.58.37:749][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Slate_N.uasset" to "D:/Cert_III_Asish_Sharma-2018/Assenssments/Assesnment_7_Level_Development/Hal_09/Content/StarterContent/Textures/T_Rock_Slate_N.uasset"
+[2018.07.31-04.58.37:819][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Smooth_Granite_D.uasset" to "D:/Cert_III_Asish_Sharma-2018/Assenssments/Assesnment_7_Level_Development/Hal_09/Content/StarterContent/Textures/T_Rock_Smooth_Granite_D.uasset"
+[2018.07.31-04.58.37:832][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Shelf_M.uasset" to "D:/Cert_III_Asish_Sharma-2018/Assenssments/Assesnment_7_Level_Development/Hal_09/Content/StarterContent/Textures/T_Shelf_M.uasset"
+[2018.07.31-04.58.37:852][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Shelf_N.uasset" to "D:/Cert_III_Asish_Sharma-2018/Assenssments/Assesnment_7_Level_Development/Hal_09/Content/StarterContent/Textures/T_Shelf_N.uasset"
+[2018.07.31-04.58.37:856][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Single_Tile_N.uasset" to "D:/Cert_III_Asish_Sharma-2018/Assenssments/Assesnment_7_Level_Development/Hal_09/Content/StarterContent/Textures/T_Single_Tile_N.uasset"
+[2018.07.31-04.58.37:884][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Smoke_SubUV.uasset" to "D:/Cert_III_Asish_Sharma-2018/Assenssments/Assesnment_7_Level_Development/Hal_09/Content/StarterContent/Textures/T_Smoke_SubUV.uasset"
+[2018.07.31-04.58.37:893][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Smoke_Tiled_D.uasset" to "D:/Cert_III_Asish_Sharma-2018/Assenssments/Assesnment_7_Level_Development/Hal_09/Content/StarterContent/Textures/T_Smoke_Tiled_D.uasset"
+[2018.07.31-04.58.37:902][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Spark_Core.uasset" to "D:/Cert_III_Asish_Sharma-2018/Assenssments/Assesnment_7_Level_Development/Hal_09/Content/StarterContent/Textures/T_Spark_Core.uasset"
+[2018.07.31-04.58.37:912][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Statue_M.uasset" to "D:/Cert_III_Asish_Sharma-2018/Assenssments/Assesnment_7_Level_Development/Hal_09/Content/StarterContent/Textures/T_Statue_M.uasset"
+[2018.07.31-04.58.37:924][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Statue_N.uasset" to "D:/Cert_III_Asish_Sharma-2018/Assenssments/Assesnment_7_Level_Development/Hal_09/Content/StarterContent/Textures/T_Statue_N.uasset"
+[2018.07.31-04.58.37:966][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_TableRound_M.uasset" to "D:/Cert_III_Asish_Sharma-2018/Assenssments/Assesnment_7_Level_Development/Hal_09/Content/StarterContent/Textures/T_TableRound_M.uasset"
+[2018.07.31-04.58.37:984][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_TableRound_N.uasset" to "D:/Cert_III_Asish_Sharma-2018/Assenssments/Assesnment_7_Level_Development/Hal_09/Content/StarterContent/Textures/T_TableRound_N.uasset"
+[2018.07.31-04.58.37:993][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Tech_Dot_M.uasset" to "D:/Cert_III_Asish_Sharma-2018/Assenssments/Assesnment_7_Level_Development/Hal_09/Content/StarterContent/Textures/T_Tech_Dot_M.uasset"
+[2018.07.31-04.58.38:002][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Tech_Dot_N.uasset" to "D:/Cert_III_Asish_Sharma-2018/Assenssments/Assesnment_7_Level_Development/Hal_09/Content/StarterContent/Textures/T_Tech_Dot_N.uasset"
+[2018.07.31-04.58.38:014][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Tech_Hex_Tile_M.uasset" to "D:/Cert_III_Asish_Sharma-2018/Assenssments/Assesnment_7_Level_Development/Hal_09/Content/StarterContent/Textures/T_Tech_Hex_Tile_M.uasset"
+[2018.07.31-04.58.38:037][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Tech_Hex_Tile_N.uasset" to "D:/Cert_III_Asish_Sharma-2018/Assenssments/Assesnment_7_Level_Development/Hal_09/Content/StarterContent/Textures/T_Tech_Hex_Tile_N.uasset"
+[2018.07.31-04.58.38:059][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Tech_Panel_M.uasset" to "D:/Cert_III_Asish_Sharma-2018/Assenssments/Assesnment_7_Level_Development/Hal_09/Content/StarterContent/Textures/T_Tech_Panel_M.uasset"
+[2018.07.31-04.58.38:081][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Tech_Panel_N.uasset" to "D:/Cert_III_Asish_Sharma-2018/Assenssments/Assesnment_7_Level_Development/Hal_09/Content/StarterContent/Textures/T_Tech_Panel_N.uasset"
+[2018.07.31-04.58.38:101][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Water_M.uasset" to "D:/Cert_III_Asish_Sharma-2018/Assenssments/Assesnment_7_Level_Development/Hal_09/Content/StarterContent/Textures/T_Water_M.uasset"
+[2018.07.31-04.58.38:125][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Water_N.uasset" to "D:/Cert_III_Asish_Sharma-2018/Assenssments/Assesnment_7_Level_Development/Hal_09/Content/StarterContent/Textures/T_Water_N.uasset"
+[2018.07.31-04.58.38:165][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Floor_Walnut_D.uasset" to "D:/Cert_III_Asish_Sharma-2018/Assenssments/Assesnment_7_Level_Development/Hal_09/Content/StarterContent/Textures/T_Wood_Floor_Walnut_D.uasset"
+[2018.07.31-04.58.38:203][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Floor_Walnut_M.uasset" to "D:/Cert_III_Asish_Sharma-2018/Assenssments/Assesnment_7_Level_Development/Hal_09/Content/StarterContent/Textures/T_Wood_Floor_Walnut_M.uasset"
+[2018.07.31-04.58.38:237][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Floor_Walnut_N.uasset" to "D:/Cert_III_Asish_Sharma-2018/Assenssments/Assesnment_7_Level_Development/Hal_09/Content/StarterContent/Textures/T_Wood_Floor_Walnut_N.uasset"
+[2018.07.31-04.58.38:293][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Oak_D.uasset" to "D:/Cert_III_Asish_Sharma-2018/Assenssments/Assesnment_7_Level_Development/Hal_09/Content/StarterContent/Textures/T_Wood_Oak_D.uasset"
+[2018.07.31-04.58.38:346][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Oak_N.uasset" to "D:/Cert_III_Asish_Sharma-2018/Assenssments/Assesnment_7_Level_Development/Hal_09/Content/StarterContent/Textures/T_Wood_Oak_N.uasset"
+[2018.07.31-04.58.38:423][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Pine_D.uasset" to "D:/Cert_III_Asish_Sharma-2018/Assenssments/Assesnment_7_Level_Development/Hal_09/Content/StarterContent/Textures/T_Wood_Pine_D.uasset"
+[2018.07.31-04.58.38:455][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Pine_N.uasset" to "D:/Cert_III_Asish_Sharma-2018/Assenssments/Assesnment_7_Level_Development/Hal_09/Content/StarterContent/Textures/T_Wood_Pine_N.uasset"
+[2018.07.31-04.58.38:512][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Walnut_D.uasset" to "D:/Cert_III_Asish_Sharma-2018/Assenssments/Assesnment_7_Level_Development/Hal_09/Content/StarterContent/Textures/T_Wood_Walnut_D.uasset"
+[2018.07.31-04.58.38:728][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Walnut_N.uasset" to "D:/Cert_III_Asish_Sharma-2018/Assenssments/Assesnment_7_Level_Development/Hal_09/Content/StarterContent/Textures/T_Wood_Walnut_N.uasset"
+[2018.07.31-04.58.38:807][  0]LogRenderer: Reallocating scene render targets to support 256x256 (Frame:2).
+[2018.07.31-04.58.38:944][  0]LogSavePackage: Save=11.883481ms
+[2018.07.31-04.58.38:944][  0]LogSavePackage: Moving 'D:/Cert_III_Asish_Sharma-2018/Assenssments/Assesnment_7_Level_Development/Hal_09/Saved/Floor_400x400BB926DFF43B51A602BF511A47BEDE75F.tmp' to 'D:/Cert_III_Asish_Sharma-2018/Assenssments/Assesnment_7_Level_Development/Hal_09/Content/StarterContent/Architecture/Floor_400x400.uasset'
+[2018.07.31-04.58.38:948][  0]LogSavePackage: Total save time: 21.913536ms
+[2018.07.31-04.58.38:948][  0]LogSavePackage:Display: Finished SavePackage D:/Cert_III_Asish_Sharma-2018/Assenssments/Assesnment_7_Level_Development/Hal_09/Content/StarterContent/Architecture/Floor_400x400.uasset
+[2018.07.31-04.58.38:948][  0]LogFeaturePack:Warning: Inserted 1 feature packs
+[2018.07.31-04.58.38:952][  0]Cmd: MAP LOAD FILE="D:/Cert_III_Asish_Sharma-2018/Assenssments/Assesnment_7_Level_Development/Hal_09/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.07.31-04.58.38:952][  0]LightingResults: New page: Lighting Build
+[2018.07.31-04.58.38:954][  0]MapCheck: New page: Map Check
+[2018.07.31-04.58.38:954][  0]LightingResults: New page: Lighting Build
+[2018.07.31-04.58.38:964][  0]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000020806AC0
+[2018.07.31-04.58.39:308][  0]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2018.07.31-04.58.39:314][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.07.31-04.58.39:315][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.07.31-04.58.39:354][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 38.718ms to complete.
+[2018.07.31-04.58.39:354][  0]LogFileHelpers: Loading map 'ThirdPersonExampleMap' took 0.402
+[2018.07.31-04.58.39:453][  0]LogCollectionManager: Loaded 0 collections in 0.000755 seconds
+[2018.07.31-04.58.39:489][  0]LogFileCache: Scanning file cache for directory 'D:/Cert_III_Asish_Sharma-2018/Assenssments/Assesnment_7_Level_Development/Hal_09/Saved/Collections/' took 0.01s
+[2018.07.31-04.58.39:489][  0]LogFileCache: Scanning file cache for directory 'D:/Cert_III_Asish_Sharma-2018/Assenssments/Assesnment_7_Level_Development/Hal_09/Content/Developers/abishaksharma/Collections/' took 0.01s
+[2018.07.31-04.58.39:489][  0]LogFileCache: Scanning file cache for directory 'D:/Cert_III_Asish_Sharma-2018/Assenssments/Assesnment_7_Level_Development/Hal_09/Content/Collections/' took 0.01s
+[2018.07.31-04.58.39:489][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000001 seconds
+[2018.07.31-04.58.39:495][  0]LogContentBrowser: Native class hierarchy populated in 0.0061 seconds. Added 1893 classes and 338 folders.
+[2018.07.31-04.58.39:499][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2018.07.31-04.58.39:528][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2018.07.31-04.58.39:531][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0003 seconds. Added 1 classes and 2 folders.
+[2018.07.31-04.58.39:552][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2018.07.31-04.58.39:556][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2018.07.31-04.58.39:578][  0]LogLoad: Full Startup: 11.51 seconds (BP compile: 0.08 seconds)
+[2018.07.31-04.58.39:588][  0]LogOcInput: Can't find Oculus library dev build: is proper Runtime installed? Version: 0.8.0.0
+[2018.07.31-04.58.39:691][  0]LogContentStreaming: Texture pool size now 400 MB
+[2018.07.31-04.58.39:802][  0]LogRenderer: Reallocating scene render targets to support 1208x572 (Frame:3).
+[2018.07.31-04.58.40:122][  8]LogAssetRegistry: Asset discovery search completed in 9.3352 seconds
+[2018.07.31-04.58.40:122][  8]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2018.07.31-04.58.40:122][  8]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000015 seconds (updated 0 objects)
+[2018.07.31-04.59.46:228][989]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2018.07.31-04.59.46:229][989]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.07.31-04.59.46:231][989]PIE: New page: PIE session: ThirdPersonExampleMap (Jul 31, 2018, 11:59:46 PM)
+[2018.07.31-04.59.46:231][989]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2018.07.31-04.59.46:260][989]LogPlayLevel: PIE: StaticDuplicateObject took: (0.029105s)
+[2018.07.31-04.59.46:261][989]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2018.07.31-04.59.46:261][989]LogPlayLevel: PIE: World Init took: (0.000958s)
+[2018.07.31-04.59.46:261][989]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.030336s)
+[2018.07.31-04.59.46:284][989]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.07.31-04.59.46:290][989]LogInit: FAudioDevice initialized.
+[2018.07.31-04.59.46:341][989]LogWorld: Game class is 'ThirdPersonGameMode_C'
+[2018.07.31-04.59.46:345][989]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2018.07.31-14.29.46
+[2018.07.31-04.59.46:346][989]LogActor:Warning: GameSession /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.GameSession_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2018.07.31-04.59.46:346][989]LogActor:Warning: GameNetworkManager /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.GameNetworkManager_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2018.07.31-04.59.46:346][989]LogWorld: Bringing up level for play took: 0.002887
+[2018.07.31-04.59.46:347][989]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap 0.37
+[2018.07.31-04.59.46:347][989]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2018.07.31-05.01.05:722][491]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2018.07.31-05.01.05:757][491]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2018.07.31-05.01.05:768][491]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000002444B100
+[2018.07.31-05.11.49:587][658]Cmd: QUIT_EDITOR
+[2018.07.31-05.11.49:692][658]LogExit: Preparing to exit.
+[2018.07.31-05.11.50:793][658]LogExit: Editor shut down
+[2018.07.31-05.11.50:793][658]LogExit: Transaction tracking system shut down
+[2018.07.31-05.11.50:794][658]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000000E6A2840
+[2018.07.31-05.11.50:795][658]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000111D4720
+[2018.07.31-05.11.50:795][658]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000001C31B880
+[2018.07.31-05.11.50:899][658]LogExit: Object subsystem successfully closed.
+[2018.07.31-05.11.50:915][658]LogD3D11RHI: Shutdown
+[2018.07.31-05.11.50:915][658]LogD3D11RHI: CleanupD3DDevice
+[2018.07.31-05.11.50:950][658]LogD3D11RHI: ~FD3D11DynamicRHI
+[2018.07.31-05.11.50:960][658]LogModuleManager: Shutting down and abandoning module CrashTracker (199)
+[2018.07.31-05.11.50:960][658]LogModuleManager: Shutting down and abandoning module SceneOutliner (198)
+[2018.07.31-05.11.50:960][658]LogModuleManager: Shutting down and abandoning module SuperSearch (197)
+[2018.07.31-05.11.50:960][658]LogModuleManager: Shutting down and abandoning module WidgetCarousel (196)
+[2018.07.31-05.11.50:960][658]LogModuleManager: Shutting down and abandoning module AddContentDialog (195)
+[2018.07.31-05.11.50:961][658]LogModuleManager: Shutting down and abandoning module EditorWidgets (194)
+[2018.07.31-05.11.50:961][658]LogModuleManager: Shutting down and abandoning module CollectionManager (193)
+[2018.07.31-05.11.50:961][658]LogModuleManager: Shutting down and abandoning module StatsViewer (192)
+[2018.07.31-05.11.50:961][658]LogModuleManager: Shutting down and abandoning module CookingStats (191)
+[2018.07.31-05.11.50:961][658]LogModuleManager: Shutting down and abandoning module FoliageEdit (190)
+[2018.07.31-05.11.50:961][658]LogModuleManager: Shutting down and abandoning module LandscapeEditor (189)
+[2018.07.31-05.11.50:961][658]LogModuleManager: Shutting down and abandoning module ActorPickerMode (188)
+[2018.07.31-05.11.50:961][658]LogModuleManager: Shutting down and abandoning module GeometryMode (187)
+[2018.07.31-05.11.50:961][658]LogModuleManager: Shutting down and abandoning module TextureAlignMode (186)
+[2018.07.31-05.11.50:961][658]LogModuleManager: Shutting down and abandoning module BspMode (185)
+[2018.07.31-05.11.50:961][658]LogModuleManager: Shutting down and abandoning module PlacementMode (184)
+[2018.07.31-05.11.50:961][658]LogModuleManager: Shutting down and abandoning module AutomationWorker (183)
+[2018.07.31-05.11.50:961][658]LogModuleManager: Shutting down and abandoning module CharacterAI (182)
+[2018.07.31-05.11.50:961][658]LogModuleManager: Shutting down and abandoning module SmartSnapping (181)
+[2018.07.31-05.11.50:961][658]LogModuleManager: Shutting down and abandoning module ViewportSnapping (180)
+[2018.07.31-05.11.50:961][658]LogModuleManager: Shutting down and abandoning module LogVisualizer (179)
+[2018.07.31-05.11.50:961][658]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (178)
+[2018.07.31-05.11.50:961][658]LogModuleManager: Shutting down and abandoning module IntroTutorials (177)
+[2018.07.31-05.11.50:961][658]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (176)
+[2018.07.31-05.11.50:961][658]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (175)
+[2018.07.31-05.11.50:961][658]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (174)
+[2018.07.31-05.11.50:962][658]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (173)
+[2018.07.31-05.11.51:549][658]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (172)
+[2018.07.31-05.11.51:549][658]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (171)
+[2018.07.31-05.11.51:549][658]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (170)
+[2018.07.31-05.11.51:549][658]LogModuleManager: Shutting down and abandoning module MergeActors (169)
+[2018.07.31-05.11.51:549][658]LogModuleManager: Shutting down and abandoning module SizeMap (168)
+[2018.07.31-05.11.51:549][658]LogModuleManager: Shutting down and abandoning module TreeMap (167)
+[2018.07.31-05.11.51:549][658]LogModuleManager: Shutting down and abandoning module ReferenceViewer (166)
+[2018.07.31-05.11.51:549][658]LogModuleManager: Shutting down and abandoning module LocalizationService (165)
+[2018.07.31-05.11.51:549][658]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (164)
+[2018.07.31-05.11.51:549][658]LogModuleManager: Shutting down and abandoning module HardwareTargeting (163)
+[2018.07.31-05.11.51:549][658]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (162)
+[2018.07.31-05.11.51:549][658]LogModuleManager: Shutting down and abandoning module UndoHistory (161)
+[2018.07.31-05.11.51:549][658]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (160)
+[2018.07.31-05.11.51:549][658]LogModuleManager: Shutting down and abandoning module UserFeedback (159)
+[2018.07.31-05.11.51:549][658]LogModuleManager: Shutting down and abandoning module XmlParser (158)
+[2018.07.31-05.11.51:549][658]LogModuleManager: Shutting down and abandoning module Blutility (157)
+[2018.07.31-05.11.51:549][658]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (156)
+[2018.07.31-05.11.51:549][658]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (155)
+[2018.07.31-05.11.51:549][658]LogModuleManager: Shutting down and abandoning module InputBindingEditor (154)
+[2018.07.31-05.11.51:549][658]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (153)
+[2018.07.31-05.11.51:549][658]LogModuleManager: Shutting down and abandoning module SettingsEditor (152)
+[2018.07.31-05.11.51:549][658]LogModuleManager: Shutting down and abandoning module ProjectLauncher (151)
+[2018.07.31-05.11.51:549][658]LogModuleManager: Shutting down and abandoning module SessionFrontend (150)
+[2018.07.31-05.11.51:549][658]LogModuleManager: Shutting down and abandoning module ProfilerClient (149)
+[2018.07.31-05.11.51:549][658]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (148)
+[2018.07.31-05.11.51:549][658]LogModuleManager: Shutting down and abandoning module DeviceManager (147)
+[2018.07.31-05.11.51:550][658]LogModuleManager: Shutting down and abandoning module AutomationController (146)
+[2018.07.31-05.11.51:550][658]LogModuleManager: Shutting down and abandoning module AutomationWindow (145)
+[2018.07.31-05.11.51:550][658]LogModuleManager: Shutting down and abandoning module Layers (144)
+[2018.07.31-05.11.51:550][658]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (143)
+[2018.07.31-05.11.51:550][658]LogModuleManager: Shutting down and abandoning module DetailCustomizations (142)
+[2018.07.31-05.11.51:550][658]LogModuleManager: Shutting down and abandoning module PackagesDialog (141)
+[2018.07.31-05.11.51:550][658]LogModuleManager: Shutting down and abandoning module Persona (140)
+[2018.07.31-05.11.51:550][658]LogModuleManager: Shutting down and abandoning module Kismet (139)
+[2018.07.31-05.11.51:550][658]LogModuleManager: Shutting down and abandoning module GraphEditor (138)
+[2018.07.31-05.11.51:550][658]LogModuleManager: Shutting down and abandoning module ClassViewer (137)
+[2018.07.31-05.11.51:550][658]LogModuleManager: Shutting down and abandoning module Toolbox (136)
+[2018.07.31-05.11.51:550][658]LogModuleManager: Shutting down and abandoning module ModuleUI (135)
+[2018.07.31-05.11.51:550][658]LogModuleManager: Shutting down and abandoning module MovieSceneTools (134)
+[2018.07.31-05.11.51:550][658]LogModuleManager: Shutting down and abandoning module OutputLog (133)
+[2018.07.31-05.11.51:550][658]LogModuleManager: Shutting down and abandoning module GammaUI (132)
+[2018.07.31-05.11.51:550][658]LogModuleManager: Shutting down and abandoning module Documentation (131)
+[2018.07.31-05.11.51:550][658]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (130)
+[2018.07.31-05.11.51:550][658]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (129)
+[2018.07.31-05.11.51:550][658]LogModuleManager: Shutting down and abandoning module AnalyticsET (128)
+[2018.07.31-05.11.51:550][658]LogModuleManager: Shutting down and abandoning module Analytics (127)
+[2018.07.31-05.11.51:550][658]LogModuleManager: Shutting down and abandoning module AITestSuite (126)
+[2018.07.31-05.11.51:550][658]LogModuleManager: Shutting down and abandoning module GameplayDebugger (125)
+[2018.07.31-05.11.51:550][658]LogModuleManager: Shutting down and abandoning module AIModule (124)
+[2018.07.31-05.11.51:550][658]LogModuleManager: Shutting down and abandoning module ProfilerService (123)
+[2018.07.31-05.11.51:575][658]LogModuleManager: Shutting down and abandoning module TaskGraph (122)
+[2018.07.31-05.11.51:575][658]LogModuleManager: Shutting down and abandoning module SlateRemote (121)
+[2018.07.31-05.11.51:575][658]LogModuleManager: Shutting down and abandoning module SteamVRController (120)
+[2018.07.31-05.11.51:575][658]LogModuleManager: Shutting down and abandoning module SteamVR (119)
+[2018.07.31-05.11.51:575][658]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (118)
+[2018.07.31-05.11.51:575][658]LogModuleManager: Shutting down and abandoning module OculusLibrary (117)
+[2018.07.31-05.11.51:575][658]LogModuleManager: Shutting down and abandoning module OculusInput (116)
+[2018.07.31-05.11.51:575][658]LogModuleManager: Shutting down and abandoning module LeapMotionController (115)
+[2018.07.31-05.11.51:584][658]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (114)
+[2018.07.31-05.11.51:584][658]LogModuleManager: Shutting down and abandoning module CableComponent (113)
+[2018.07.31-05.11.51:584][658]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (112)
+[2018.07.31-05.11.51:584][658]LogModuleManager: Shutting down and abandoning module MessagingDebugger (111)
+[2018.07.31-05.11.51:584][658]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (110)
+[2018.07.31-05.11.51:584][658]LogModuleManager: Shutting down and abandoning module HTML5Networking (109)
+[2018.07.31-05.11.51:584][658]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (108)
+[2018.07.31-05.11.51:584][658]LogModuleManager: Shutting down and abandoning module PluginBrowser (107)
+[2018.07.31-05.11.51:584][658]LogModuleManager: Shutting down and abandoning module EpicSurvey (106)
+[2018.07.31-05.11.51:584][658]LogModuleManager: Shutting down and abandoning module DesktopPlatform (105)
+[2018.07.31-05.11.51:584][658]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (104)
+[2018.07.31-05.11.51:584][658]LogModuleManager: Shutting down and abandoning module UObjectPlugin (103)
+[2018.07.31-05.11.51:584][658]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (102)
+[2018.07.31-05.11.51:584][658]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (101)
+[2018.07.31-05.11.51:584][658]LogModuleManager: Shutting down and abandoning module SourceControl (100)
+[2018.07.31-05.11.51:584][658]LogModuleManager: Shutting down and abandoning module GitSourceControl (99)
+[2018.07.31-05.11.51:584][658]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (98)
+[2018.07.31-05.11.51:584][658]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (97)
+[2018.07.31-05.11.51:584][658]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (96)
+[2018.07.31-05.11.51:584][658]LogModuleManager: Shutting down and abandoning module MeshPaint (95)
+[2018.07.31-05.11.51:584][658]LogModuleManager: Shutting down and abandoning module SlateReflector (94)
+[2018.07.31-05.11.51:584][658]LogModuleManager: Shutting down and abandoning module HotReload (93)
+[2018.07.31-05.11.51:584][658]LogModuleManager: Shutting down and abandoning module MainFrame (92)
+[2018.07.31-05.11.51:584][658]LogModuleManager: Shutting down and abandoning module LevelEditor (91)
+[2018.07.31-05.11.51:585][658]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (90)
+[2018.07.31-05.11.51:586][658]LogModuleManager: Shutting down and abandoning module AssetRegistry (89)
+[2018.07.31-05.11.51:702][658]LogModuleManager: Shutting down and abandoning module ContentBrowser (88)
+[2018.07.31-05.11.51:703][658]LogModuleManager: Shutting down and abandoning module Paper2DEditor (87)
+[2018.07.31-05.11.51:703][658]LogModuleManager: Shutting down and abandoning module UdpMessaging (86)
+[2018.07.31-05.11.51:803][658]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (85)
+[2018.07.31-05.11.51:803][658]LogModuleManager: Shutting down and abandoning module Paper2D (84)
+[2018.07.31-05.11.51:803][658]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (83)
+[2018.07.31-05.11.51:806][658]LogModuleManager: Shutting down and abandoning module Media (82)
+[2018.07.31-05.11.51:806][658]LogModuleManager: Shutting down and abandoning module WmfMedia (81)
+[2018.07.31-05.11.51:806][658]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (80)
+[2018.07.31-05.11.51:806][658]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (79)
+[2018.07.31-05.11.51:806][658]LogModuleManager: Shutting down and abandoning module PropertyEditor (78)
+[2018.07.31-05.11.51:806][658]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (77)
+[2018.07.31-05.11.51:806][658]LogModuleManager: Shutting down and abandoning module FunctionalTesting (76)
+[2018.07.31-05.11.51:806][658]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (75)
+[2018.07.31-05.11.51:806][658]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (74)
+[2018.07.31-05.11.51:806][658]LogModuleManager: Shutting down and abandoning module MessageLog (73)
+[2018.07.31-05.11.51:806][658]LogModuleManager: Shutting down and abandoning module Sequencer (72)
+[2018.07.31-05.11.51:806][658]LogModuleManager: Shutting down and abandoning module AssetTools (71)
+[2018.07.31-05.11.51:806][658]LogModuleManager: Shutting down and abandoning module UMGEditor (70)
+[2018.07.31-05.11.51:807][658]LogModuleManager: Shutting down and abandoning module UMG (69)
+[2018.07.31-05.11.51:807][658]LogModuleManager: Shutting down and abandoning module Slate (68)
+[2018.07.31-05.11.51:807][658]LogModuleManager: Shutting down and abandoning module EditorStyle (67)
+[2018.07.31-05.11.51:808][658]LogModuleManager: Shutting down and abandoning module SessionServices (66)
+[2018.07.31-05.11.51:808][658]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (65)
+[2018.07.31-05.11.51:808][658]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (64)
+[2018.07.31-05.11.51:808][658]LogModuleManager: Shutting down and abandoning module XAudio2 (63)
+[2018.07.31-05.11.51:808][658]LogModuleManager: Shutting down and abandoning module Networking (61)
+[2018.07.31-05.11.51:808][658]LogModuleManager: Shutting down and abandoning module Core (60)
+[2018.07.31-05.11.51:808][658]LogModuleManager: Shutting down and abandoning module KismetCompiler (59)
+[2018.07.31-05.11.51:808][658]LogModuleManager: Shutting down and abandoning module PhysXFormats (58)
+[2018.07.31-05.11.51:808][658]LogModuleManager: Shutting down and abandoning module MeshUtilities (57)
+[2018.07.31-05.11.51:808][658]LogModuleManager: Shutting down and abandoning module DerivedDataCache (56)
+[2018.07.31-05.11.51:864][658]LogDerivedDataCache: Shutdown
+[2018.07.31-05.11.51:864][658]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (55)
+[2018.07.31-05.11.51:864][658]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (54)
+[2018.07.31-05.11.51:864][658]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (53)
+[2018.07.31-05.11.51:864][658]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (52)
+[2018.07.31-05.11.51:864][658]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (51)
+[2018.07.31-05.11.51:864][658]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (50)
+[2018.07.31-05.11.51:864][658]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (49)
+[2018.07.31-05.11.51:864][658]LogModuleManager: Shutting down and abandoning module ImageWrapper (48)
+[2018.07.31-05.11.51:864][658]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (47)
+[2018.07.31-05.11.51:864][658]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (46)
+[2018.07.31-05.11.51:864][658]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (45)
+[2018.07.31-05.11.51:864][658]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (44)
+[2018.07.31-05.11.51:864][658]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (43)
+[2018.07.31-05.11.51:864][658]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (42)
+[2018.07.31-05.11.51:864][658]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (41)
+[2018.07.31-05.11.51:864][658]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (40)
+[2018.07.31-05.11.51:864][658]LogModuleManager: Shutting down and abandoning module Messaging (39)
+[2018.07.31-05.11.51:864][658]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (38)
+[2018.07.31-05.11.51:864][658]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (37)
+[2018.07.31-05.11.51:864][658]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (36)
+[2018.07.31-05.11.51:864][658]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (35)
+[2018.07.31-05.11.51:864][658]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (34)
+[2018.07.31-05.11.51:864][658]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (33)
+[2018.07.31-05.11.51:864][658]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (32)
+[2018.07.31-05.11.51:864][658]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (31)
+[2018.07.31-05.11.51:864][658]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (30)
+[2018.07.31-05.11.51:864][658]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (29)
+[2018.07.31-05.11.51:864][658]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (28)
+[2018.07.31-05.11.51:864][658]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (27)
+[2018.07.31-05.11.51:864][658]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (26)
+[2018.07.31-05.11.51:864][658]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (25)
+[2018.07.31-05.11.51:864][658]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (24)
+[2018.07.31-05.11.51:864][658]LogModuleManager: Shutting down and abandoning module TargetPlatform (23)
+[2018.07.31-05.11.51:864][658]LogModuleManager: Shutting down and abandoning module InputCore (22)
+[2018.07.31-05.11.51:864][658]LogModuleManager: Shutting down and abandoning module Settings (21)
+[2018.07.31-05.11.51:864][658]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (19)
+[2018.07.31-05.11.51:864][658]LogModuleManager: Shutting down and abandoning module HTTP (18)
+[2018.07.31-05.11.53:865][658]LogModuleManager: Shutting down and abandoning module XMPP (17)
+[2018.07.31-05.11.53:865][658]LogModuleManager: Shutting down and abandoning module OculusRift (16)
+[2018.07.31-05.11.53:865][658]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (15)
+[2018.07.31-05.11.53:865][658]LogModuleManager: Shutting down and abandoning module TextureCompressor (14)
+[2018.07.31-05.11.53:865][658]LogModuleManager: Shutting down and abandoning module ShaderCore (13)
+[2018.07.31-05.11.53:865][658]LogModuleManager: Shutting down and abandoning module Landscape (12)
+[2018.07.31-05.11.53:865][658]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (11)
+[2018.07.31-05.11.53:865][658]LogModuleManager: Shutting down and abandoning module OpenGLDrv (10)
+[2018.07.31-05.11.53:865][658]LogModuleManager: Shutting down and abandoning module D3D11RHI (9)
+[2018.07.31-05.11.53:865][658]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (8)
+[2018.07.31-05.11.53:865][658]LogModuleManager: Shutting down and abandoning module Renderer (7)
+[2018.07.31-05.11.53:865][658]LogModuleManager: Shutting down and abandoning module Engine (6)
+[2018.07.31-05.11.53:865][658]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
+[2018.07.31-05.11.53:865][658]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
+[2018.07.31-05.11.53:865][658]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
+[2018.07.31-05.11.53:865][658]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
+[2018.07.31-05.11.53:865][658]LogModuleManager: Shutting down and abandoning module PakFile (1)
+[2018.07.31-05.11.53:867][658]LogExit: Exiting.
+[2018.07.31-05.11.53:878][658]Log file closed, 07/31/18 14:41:53
