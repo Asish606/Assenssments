@@ -1,0 +1,43 @@
+# File produced by Open Asset Import Library (http://www.assimp.sf.net)
+# (assimp v3.1.68452469)
+
+newmtl Neck1
+kd 0 1 0
+illum 1
+
+newmtl Head
+kd 1 0.34615 0
+illum 1
+
+newmtl Eyes
+kd 0 0 0
+illum 1
+
+newmtl blinn1
+kd 1 1 1
+illum 1
+
+newmtl Knee
+kd 0.9619 1 0
+illum 1
+
+newmtl Squre_Button
+kd 1 0 0.6399
+illum 1
+
+newmtl Rings
+kd 1 0 0.0539
+illum 1
+
+newmtl Body
+kd 0 0.8332 1
+illum 1
+
+newmtl Hand_Button
+kd 0 0 1
+illum 1
+
+newmtl Legs
+kd 0 1 0.2022
+illum 1
+
